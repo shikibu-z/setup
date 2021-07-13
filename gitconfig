@@ -1,0 +1,8 @@
+[user]
+	name = Junyong Zhao
+	email = junyong@seas.upenn.edu
+[core]
+	editor = vim
+	autocrlf = input
+[credential]
+	helper = store
