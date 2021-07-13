@@ -1,18 +1,7 @@
 # unix-setup
 My config files for unix-like systems.
+
 ## File Structure & Permissions
-All should go with 644, except 600 for `id_rsa`
-```
-.
-├── feketerigo.terminal
-├── gitconfig
-├── github-credential
-├── gitlab-credential
-├── id_rsa
-├── id_rsa.pub
-├── my-afowler.zsh-theme
-├── ssh-login.sh
-├── tmux.conf
-├── vimrc
-└── zshenv
-```
++ All regular files should have permission `644 rwxr--r--`
++ All shell scripts that are EXECUTABLE should have permission `744 rwxr--r--`
++ All directories should have permission `755 rwxr-xr-x`
