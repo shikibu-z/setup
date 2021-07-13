@@ -1,0 +1,193 @@
+/*
+ * @Description : This is my configuration file for Visual Studio Code.
+ * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
+ * @LastEditTime: 2021-07-13 11:52:35
+ */
+{
+    // 隐私，更新，测试功能设置
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.enableExperiments": false,
+    "update.mode": "none",
+    "update.showReleaseNotes": false,
+    // 文件，面板，图标设置
+    "files.autoSave": "afterDelay",
+    "files.autoGuessEncoding": true,
+    "git.ignoreMissingGitWarning": true,
+    "workbench.startupEditor": "none",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.iconTheme": "material-icon-theme",
+    //编辑器，终端设置
+    "editor.fontSize": 14,
+    "editor.fontFamily": "DejaVu Sans Mono", // * OS
+    "editor.lineHeight": 23,
+    "editor.renderLineHighlight": "all",
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "solid",
+    "debug.console.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.inheritEnv": false,
+    // 扩展设置
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "extensions.ignoreRecommendations": true,
+    // vim
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+        "<C-w>": false,
+        "<C-b>": false,
+        "<C-k>": false,
+        "<C-x>": false
+    },
+    // file & function header
+    "fileheader.configObj": {
+        "wideSame": true,
+        "wideNum": 12
+    },
+    "fileheader.customMade": {
+        "Description": "",
+        "Author": "Junyong Zhao (junyong@seas.upenn.edu)",
+        "Date": "Do not edit",
+        "LastEditors": "Junyong Zhao (junyong@seas.upenn.edu)",
+        "LastEditTime": "Do not edit"
+    },
+    // C / C++
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
+    "[c]": {
+        "editor.rulers": [
+            80
+        ]
+    },
+    "[cpp]": {
+        "editor.rulers": [
+            80
+        ]
+    },
+    // python
+    "python.showStartPage": false,
+    "python.terminal.activateEnvironment": false,
+    "python.pythonPath": "/usr/bin/python3", // * OS
+    "python.linting.pylintPath": "/usr/bin/pylint", // * OS
+    "python.formatting.autopep8Path": "/usr/bin/autopep8", // * OS
+    "[python]": {
+        "editor.rulers": [
+            79
+        ]
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    // markdown
+    "[markdown]": {
+        "editor.rulers": [
+            80
+        ]
+    },
+    // LaTeX
+    "latex-workshop.latex.tools": [
+        {
+            "name": "XeLaTeX",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdfLaTeX",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-shell-escape",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "BibTeX",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "Biber",
+            "command": "biber",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdfLaTeX",
+            "tools": [
+                "pdfLaTeX"
+            ]
+        },
+        {
+            "name": "pdfLaTeX->BibTeX->pdfLaTeX->pdfLaTeX",
+            "tools": [
+                "pdfLaTeX",
+                "BibTeX",
+                "pdfLaTeX",
+                "pdfLaTeX"
+            ]
+        },
+        {
+            "name": "pdfLaTeX->Biber->pdfLaTeX->pdfLaTeX",
+            "tools": [
+                "pdfLaTeX",
+                "Biber",
+                "pdfLaTeX",
+                "pdfLaTeX"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.synctex.gz",
+        "*.fdb_latexmk",
+        "*.bcf",
+        "*.xml"
+    ],
+    "[latex]": {
+        "editor.rulers": [
+            80
+        ]
+    },
+    // matlab
+    "matlab.matlabpath": "/Applications/MATLAB_R2020b.app/bin/maci64/MATLAB", // * OS
+    "matlab.mlintpath": "/Applications/MATLAB_R2020b.app/bin/maci64/mlint", // * OS
+    "files.associations": {
+        "*.m": "matlab"
+    },
+    "[matlab]": {
+        "editor.rulers": [
+            80
+        ]
+    }
+}
