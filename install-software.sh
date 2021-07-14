@@ -4,7 +4,7 @@
  # via package management utility. This file is for recode
  # ONLY! Do check before using any commands!
  # @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- # @LastEditTime: 2021-07-13 11:51:23
+ # @LastEditTime: 2021-07-14 19:19:32
 ###
 
 ## Ubuntu
@@ -37,8 +37,19 @@ sudo apt install texlive-full
 
 # gui softwares
 sudo apt install baidunetdisk easytag libreoffice vlc qbittorrent vim-gtk3
+# google chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
+# skype
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
 sudo apt install ./skypeforlinux-64.deb
-# download vscode manually...
+# vscode
+curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update && sudo apt install code
+
+# virtualization
+sudo apt install virtualbox
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+sudo apt update && sudo apt install vagrant
