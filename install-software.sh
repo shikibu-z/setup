@@ -4,18 +4,19 @@
  # via package management utility. This file is for recode
  # ONLY! Do check before using any commands!
  # @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- # @LastEditTime: 2021-07-14 19:19:32
+ # @LastEditTime: 2021-07-14 19:54:24
 ###
 
 ## Ubuntu
 sudo apt update && sudo apt upgrade && sudo apt autoremove
 
 # command line tools
-sudo apt install p7zip unrar ffmpeg youtube-dl wget curl
+sudo apt install p7zip unrar ffmpeg youtube-dl wget curl htop
 
 # zsh & oh-my-zsh
 sudo apt install zsh
 sudo chsh -s /bin/zsh
+# sudo chsh -s /bin/zsh vagrant
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
@@ -30,7 +31,7 @@ sudo apt install git tig python3-pip
 pip3 install commitizen
 echo export PATH=\$PATH:~/.local/bin/ >> .zshrc
 # python
-sudo apt install pylint autopep8
+sudo apt install pylint python3-autopep8
 
 # latex
 sudo apt install texlive-full
