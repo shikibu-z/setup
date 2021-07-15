@@ -4,7 +4,7 @@
  # via package management utility. This file is for recode
  # ONLY! Do check before using any commands!
  # @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- # @LastEditTime: 2021-07-14 19:54:24
+ # @LastEditTime: 2021-07-14 20:03:09
 ###
 
 ## Ubuntu
@@ -12,6 +12,7 @@ sudo apt update && sudo apt upgrade && sudo apt autoremove
 
 # command line tools
 sudo apt install p7zip unrar ffmpeg youtube-dl wget curl htop
+# sudo apt install swapspace
 
 # zsh & oh-my-zsh
 sudo apt install zsh
