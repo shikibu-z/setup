@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-07-15 20:55:47
+ * @LastEditTime: 2021-07-15 20:59:38
  */
 {
     // 隐私，更新，测试功能设置
@@ -24,7 +24,9 @@
     "editor.renderLineHighlight": "all",
     "editor.wordWrap": "on",
     "editor.cursorBlinking": "solid",
-    "editor.rulers": [80],
+    "editor.rulers": [
+        80
+    ],
     "debug.console.fontSize": 14,
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.inheritEnv": false,
