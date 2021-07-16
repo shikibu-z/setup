@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-07-15 20:48:04
+ * @LastEditTime: 2021-07-15 20:55:47
  */
 {
     // 隐私，更新，测试功能设置
@@ -24,6 +24,7 @@
     "editor.renderLineHighlight": "all",
     "editor.wordWrap": "on",
     "editor.cursorBlinking": "solid",
+    "editor.rulers": [80],
     "debug.console.fontSize": 14,
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.inheritEnv": false,
@@ -53,35 +54,14 @@
     },
     // C / C++
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
-    "[c]": {
-        "editor.rulers": [
-            80
-        ]
-    },
-    "[cpp]": {
-        "editor.rulers": [
-            80
-        ]
-    },
     // python
     "python.showStartPage": false,
     "python.terminal.activateEnvironment": false,
     "python.pythonPath": "/usr/bin/python3", // * OS
     "python.linting.pylintPath": "/usr/bin/pylint", // * OS
     "python.formatting.autopep8Path": "/usr/bin/autopep8", // * OS
-    "[python]": {
-        "editor.rulers": [
-            79
-        ]
-    },
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
-    },
-    // markdown
-    "[markdown]": {
-        "editor.rulers": [
-            80
-        ]
     },
     // LaTeX
     "latex-workshop.latex.tools": [
@@ -174,20 +154,10 @@
         "*.bcf",
         "*.xml"
     ],
-    "[latex]": {
-        "editor.rulers": [
-            80
-        ]
-    },
     // matlab
     "matlab.matlabpath": "/Applications/MATLAB_R2020b.app/bin/maci64/MATLAB", // * OS
     "matlab.mlintpath": "/Applications/MATLAB_R2020b.app/bin/maci64/mlint", // * OS
     "files.associations": {
         "*.m": "matlab"
-    },
-    "[matlab]": {
-        "editor.rulers": [
-            80
-        ]
     }
 }
