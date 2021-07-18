@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-07-15 20:59:38
+ * @LastEditTime: 2021-07-18 17:23:08
  */
 {
     // 隐私，更新，测试功能设置
@@ -11,7 +11,6 @@
     "update.mode": "none",
     "update.showReleaseNotes": false,
     // 文件，面板，图标设置
-    "files.autoSave": "afterDelay",
     "files.autoGuessEncoding": true,
     "git.ignoreMissingGitWarning": true,
     "workbench.startupEditor": "none",
