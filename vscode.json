@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-07-18 19:17:02
+ * @LastEditTime: 2021-07-18 19:32:41
  */
 {
     // 隐私，更新，测试功能设置
@@ -55,7 +55,6 @@
     },
     // comment rewrap
     "rewrap.autoWrap.enabled": true,
-    "rewrap.autoWrap.notification": "text",
     // C / C++
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
     // python
