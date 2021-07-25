@@ -4,7 +4,7 @@
  # via package management utility. This file is for recode
  # ONLY! Do check before using any commands!
  # @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- # @LastEditTime: 2021-07-14 20:03:09
+ # @LastEditTime: 2021-07-25 15:34:21
 ###
 
 ## Ubuntu
@@ -22,8 +22,8 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 # develop toolchain
-# c / c++ toolchain
-sudo apt install autoconf libtool
+# c / c++ autotools
+sudo apt install autoconf automake libtool
 sudo apt install gcc gdb build-essential
 # version control
 sudo add-apt-repository ppa:git-core/ppa -y
