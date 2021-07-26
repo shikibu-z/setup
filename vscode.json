@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-07-18 19:41:07
+ * @LastEditTime: 2021-07-26 12:00:41
  */
 {
     // 隐私，更新，测试功能设置
@@ -44,7 +44,15 @@
     // file & function header
     "fileheader.configObj": {
         "wideSame": true,
-        "wideNum": 12
+        "wideNum": 12,
+        "cursorModeInternalAll": {
+            "python": true,
+            "defaultSetting": false
+        },
+        "functionBlankSpaceAll": {
+            "python": 4,
+            "defaultSetting": 0
+        }
     },
     "fileheader.customMade": {
         "Description": "",
