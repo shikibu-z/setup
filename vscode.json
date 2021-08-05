@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-07-26 12:00:41
+ * @LastEditTime: 2021-08-05 16:21:28
  */
 {
     // 隐私，更新，测试功能设置
@@ -72,6 +72,11 @@
     "python.linting.pylintPath": "/usr/bin/pylint", // * OS
     "python.formatting.autopep8Path": "/usr/bin/autopep8", // * OS
     // LaTeX
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latexindent.path": "/home/linuxbrew/.linuxbrew/bin/latexindent", // * OS
+    "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.tools": [
         {
             "name": "XeLaTeX",
@@ -135,9 +140,6 @@
             ]
         }
     ],
-    "latex-workshop.latex.recipe.default": "lastUsed",
-    "latex-workshop.view.pdf.viewer": "tab",
-    "latex-workshop.latex.autoClean.run": "onBuilt",
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
         "*.bbl",
@@ -162,6 +164,9 @@
         "*.bcf",
         "*.xml"
     ],
+    // ltex language check
+    "ltex.diagnosticSeverity": "hint",
+    "ltex.ltex-ls.logLevel": "severe",
     // matlab
     "matlab.matlabpath": "/Applications/MATLAB_R2020b.app/bin/maci64/MATLAB", // * OS
     "matlab.mlintpath": "/Applications/MATLAB_R2020b.app/bin/maci64/mlint", // * OS
