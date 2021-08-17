@@ -1,18 +1,19 @@
 #!/bin/sh
+
 ###
  # @Description : This is a script that install softwares
  # via package management utility. This file is for recode
  # ONLY! Do check before using any commands!
  # @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- # @LastEditTime: 2021-07-25 15:34:21
+ # @LastEditTime: 2021-08-17 11:02:11
 ###
 
 ## Ubuntu
 sudo apt update && sudo apt upgrade && sudo apt autoremove
 
 # command line tools
-sudo apt install p7zip unrar ffmpeg youtube-dl wget curl htop
-# sudo apt install swapspace
+sudo apt install p7zip unrar ffmpeg youtube-dl wget curl htop fonts-hack \
+swapspace
 
 # zsh & oh-my-zsh
 sudo apt install zsh
@@ -45,6 +46,9 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 # skype
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
 sudo apt install ./skypeforlinux-64.deb
+# zoom
+wget https://zoom.us/client/latest/zoom_amd64.deb
+sudo apt install ./zoom_amd64.deb
 # vscode
 curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
