@@ -13,12 +13,12 @@ sudo apt update && sudo apt upgrade && sudo apt autoremove
 
 # command line tools
 sudo apt install p7zip unrar ffmpeg youtube-dl wget curl htop fonts-hack \
-swapspace
+swapspace tlp
 
 # zsh & oh-my-zsh
 sudo apt install zsh
-sudo chsh -s /bin/zsh
-# sudo chsh -s /bin/zsh vagrant
+chsh -s /bin/zsh
+# chsh -s /bin/zsh vagrant
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
