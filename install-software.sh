@@ -31,7 +31,7 @@ sudo add-apt-repository ppa:git-core/ppa -y
 sudo apt update
 sudo apt install git tig python3-pip
 pip3 install commitizen
-echo export PATH=\$PATH:~/.local/bin/ >> .zshrc
+# echo export PATH=\$PATH:~/.local/bin/ >> .zshrc
 # python
 sudo apt install pylint python3-autopep8
 
