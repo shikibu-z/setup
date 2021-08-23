@@ -5,8 +5,9 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # $PATH and $FPATH for pre-initialization
-export PATH=/home/linuxbrew/.linuxbrew/bin:~/.local/bin:$PATH
-export FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+export PATH=~/.local/bin:$PATH
+# export PATH=/home/linuxbrew/.linuxbrew/bin:$PATH
+# export FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
