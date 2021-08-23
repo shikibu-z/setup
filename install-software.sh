@@ -1,5 +1,3 @@
-#!/bin/sh
-
 ###
  # @Description : This is a script that install softwares
  # via package management utility. This file is for recode
