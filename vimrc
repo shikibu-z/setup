@@ -29,4 +29,4 @@ set smartindent
 set hlsearch
 set showmatch
 
-set clipboard=unnamed
+set clipboard=unnamedplus
