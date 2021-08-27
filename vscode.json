@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-08-26 22:57:55
+ * @LastEditTime: 2021-08-26 23:11:20
  */
 {
     // 隐私，更新，测试功能设置
@@ -66,7 +66,6 @@
     // C / C++
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
     // python
-    "python.showStartPage": false,
     "python.terminal.activateEnvironment": false,
     "python.pythonPath": "/usr/bin/python3", // * OS
     "python.linting.pylintPath": "/usr/bin/pylint", // * OS
