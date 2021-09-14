@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-08-26 23:11:20
+ * @LastEditTime: 2021-09-14 14:12:55
  */
 {
     // 隐私，更新，测试功能设置
@@ -15,6 +15,7 @@
     "git.ignoreMissingGitWarning": true,
     "workbench.startupEditor": "none",
     "workbench.editor.untitled.hint": "hidden",
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
     "workbench.iconTheme": "material-icon-theme",
     //编辑器，终端设置
     "editor.fontSize": 14,
