@@ -1,12 +1,11 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-09-14 14:12:55
+ * @LastEditTime: 2021-10-07 20:56:44
  */
 {
     // 隐私，更新，测试功能设置
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
     "workbench.enableExperiments": false,
     "update.mode": "none",
     "update.showReleaseNotes": false,
@@ -15,7 +14,6 @@
     "git.ignoreMissingGitWarning": true,
     "workbench.startupEditor": "none",
     "workbench.editor.untitled.hint": "hidden",
-    "workbench.colorTheme": "Sublime Material Theme - Dark",
     "workbench.iconTheme": "material-icon-theme",
     //编辑器，终端设置
     "editor.fontSize": 14,
@@ -44,6 +42,7 @@
     },
     // file & function header
     "fileheader.configObj": {
+        "autoAdd": false,
         "wideSame": true,
         "wideNum": 12,
         "cursorModeInternalAll": {
@@ -71,6 +70,16 @@
     "python.pythonPath": "/usr/bin/python3", // * OS
     "python.linting.pylintPath": "/usr/bin/pylint", // * OS
     "python.formatting.autopep8Path": "/usr/bin/autopep8", // * OS
+    // JavaScript
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     // LaTeX
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.autoBuild.run": "never",
@@ -172,5 +181,7 @@
     "matlab.mlintpath": "/Applications/MATLAB_R2020b.app/bin/maci64/mlint", // * OS
     "files.associations": {
         "*.m": "matlab"
-    }
+    },
+    // Beautify
+    "redhat.telemetry.enabled": false
 }
