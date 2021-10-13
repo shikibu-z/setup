@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-10-07 20:56:44
+ * @LastEditTime: 2021-10-12 21:03:49
  */
 {
     // 隐私，更新，测试功能设置
@@ -40,7 +40,7 @@
         "<C-k>": false,
         "<C-x>": false
     },
-    // file & function header
+    // 文件标头
     "fileheader.configObj": {
         "autoAdd": false,
         "wideSame": true,
@@ -61,7 +61,7 @@
         "LastEditors": "Junyong Zhao (junyong@seas.upenn.edu)",
         "LastEditTime": "Do not edit"
     },
-    // comment rewrap
+    // 自动折行
     "rewrap.autoWrap.enabled": true,
     // C / C++
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
@@ -70,7 +70,10 @@
     "python.pythonPath": "/usr/bin/python3", // * OS
     "python.linting.pylintPath": "/usr/bin/pylint", // * OS
     "python.formatting.autopep8Path": "/usr/bin/autopep8", // * OS
-    // JavaScript
+    // Web
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
@@ -173,7 +176,13 @@
         "*.bcf",
         "*.xml"
     ],
-    // ltex language check
+    // ltex
+    "ltex.enabled": [
+        "plaintext",
+        "markdown",
+        "latex",
+        "bibtex"
+    ],
     "ltex.diagnosticSeverity": "hint",
     "ltex.ltex-ls.logLevel": "severe",
     // matlab
