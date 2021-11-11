@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-10-12 21:03:49
+ * @LastEditTime: 2021-11-11 13:08:59
  */
 {
     // 隐私，更新，测试功能设置
@@ -19,9 +19,10 @@
     "editor.fontSize": 14,
     "editor.fontFamily": "Hack", // * OS
     "editor.lineHeight": 23,
-    "editor.renderLineHighlight": "all",
     "editor.wordWrap": "on",
     "editor.cursorBlinking": "solid",
+    "editor.guides.bracketPairs": "active",
+    "editor.hover.above": false,
     "editor.rulers": [
         80
     ],
@@ -74,6 +75,7 @@
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
+    "html.completion.attributeDefaultValue": "doublequotes",
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
