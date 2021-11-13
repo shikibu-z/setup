@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-11-11 13:08:59
+ * @LastEditTime: 2021-11-13 15:23:32
  */
 {
     // 隐私，更新，测试功能设置
@@ -85,6 +85,7 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "sql-formatter.uppercase": true,
     // LaTeX
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.autoBuild.run": "never",
