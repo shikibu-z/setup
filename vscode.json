@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-11-17 18:36:28
+ * @LastEditTime: 2021-11-17 18:40:42
  */
 {
     // 隐私，更新，测试功能设置
@@ -72,7 +72,7 @@
     "python.linting.pylintPath": "/usr/bin/pylint", // * OS
     "python.formatting.autopep8Path": "/usr/bin/autopep8", // * OS
     "[python]": {
-        "editor.language.brackets": []
+        "editor.guides.bracketPairs": false
     },
     // Web
     "[html]": {
