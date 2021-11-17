@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-11-17 18:12:58
+ * @LastEditTime: 2021-11-17 18:36:28
  */
 {
     // 隐私，更新，测试功能设置
@@ -82,13 +82,19 @@
     "html.completion.attributeDefaultValue": "doublequotes",
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features",
-        "editor.tabSize": 2
+        "editor.tabSize": 2,
+        // eslint airbnb max length
+        "editor.rulers": [
+            100
+        ]
     },
     "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.rulers": []
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.rulers": []
     },
     // LaTeX Workshop
     "latex-workshop.view.pdf.viewer": "tab",
