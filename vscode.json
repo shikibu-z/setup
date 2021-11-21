@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-11-17 18:40:42
+ * @LastEditTime: 2021-11-21 18:51:36
  */
 {
     // 隐私，更新，测试功能设置
@@ -22,7 +22,6 @@
     "editor.wordWrap": "on",
     "editor.cursorBlinking": "solid",
     "editor.guides.bracketPairs": "active",
-    "editor.hover.above": false,
     "editor.rulers": [
         80
     ],
