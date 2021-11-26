@@ -1,0 +1,26 @@
+{
+    "name": "shikibu-theme",
+    "displayName": "Shikibu Theme",
+    "description": "A simple theme for myself.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shikibu-z/unix-setup"
+    },
+    "icon": "./icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Shikibu",
+                "uiTheme": "vs-dark",
+                "path": "./themes/shikibu-color-theme.json"
+            }
+        ]
+    }
+}
