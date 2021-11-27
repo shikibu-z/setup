@@ -176,6 +176,7 @@
         {
             "scope": [
                 "variable.other.property",
+                "variable.other.object.property",
                 "support.variable.property",
                 "meta.object-literal.key"
             ],
