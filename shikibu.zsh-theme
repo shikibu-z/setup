@@ -3,7 +3,7 @@
  # @Author      : Junyong Zhao (junyong@seas.upenn.edu)
  # @Date        : 2021-12-28 15:56:11
  # @LastEditors : Junyong Zhao (junyong@seas.upenn.edu)
- # @LastEditTime: 2021-12-28 16:40:59
+ # @LastEditTime: 2021-12-28 16:57:45
 ###
 
 # prompt for $PS1
@@ -17,4 +17,4 @@ ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg_bold[cyan]%}";
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}";
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_bold[red]%} ●";
 ZSH_THEME_GIT_PROMPT_ADDED="%{$fg_bold[yellow]%} ●";
-ZSH_THEME_GIT_PROMPT_AHEAD="%{$fg_bold[magenta]%} ●";
+ZSH_THEME_GIT_PROMPT_AHEAD=" ●";
