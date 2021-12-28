@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-12-14 14:06:16
+ * @LastEditTime: 2021-12-28 16:52:14
  */
 {
     // 隐私，更新，测试功能设置
@@ -83,10 +83,6 @@
     "gitlens.defaultDateFormat": "YYYY-MM-DD hh:mm",
     "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
     "gitlens.defaultTimeFormat": "hh:mm",
-    "gitlens.views.commits.files.layout": "list",
-    "gitlens.views.commits.showBranchComparison": false,
-    "gitlens.views.commits.pullRequests.enabled": false,
-    "gitlens.views.commits.pullRequests.showForBranches": false,
     // C / C++
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
     // python
