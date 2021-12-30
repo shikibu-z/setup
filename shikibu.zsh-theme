@@ -7,7 +7,7 @@
 ###
 
 # prompt for $PS1
-PROMPT='▶ %{$fg_bold[green]%}%~$(git_prompt_info)$(git_prompt_status)%{$reset_color%} ';
+PROMPT='▶ %{$fg_bold[green]%}%3~$(git_prompt_info)$(git_prompt_status)%{$reset_color%} ';
 
 # display return status code
 local return_code="%(?..%{$fg_bold[red]%}%?%{$reset_color%})";
