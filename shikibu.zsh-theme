@@ -3,11 +3,12 @@
  # @Author      : Junyong Zhao (junyong@seas.upenn.edu)
  # @Date        : 2021-12-28 15:56:11
  # @LastEditors : Junyong Zhao (junyong@seas.upenn.edu)
- # @LastEditTime: 2022-01-11 10:40:42
+ # @LastEditTime: 2022-01-11 11:30:46
 ###
 
 # prompt for $PS1
-PROMPT='▶ %{$fg_bold[green]%}%3~$(git_prompt_info)$(git_prompt_status)%{$reset_color%} ';
+PROMPT='▶ %{$fg_bold[green]%}%3~$(git_prompt_info)';
+PROMPT+='$(git_prompt_status)%{$reset_color%} ';
 
 # display return status code
 local return_code="%(?..%{$fg_bold[red]%}%?%{$reset_color%})";

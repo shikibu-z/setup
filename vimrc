@@ -15,18 +15,21 @@ set wrap
 set cursorline
 set colorcolumn=80
 
-" Editor Functions
+" Editor Syntax Highlight
 syntax on
-syntax enable
 
+" Use Mouse
 set mouse=a
 
+" Tab Size and Smart Indent
 set expandtab
 set tabstop=4
 set shiftwidth=4
 set smartindent
 
+" Search Highlight
 set hlsearch
 set showmatch
 
+" Clipboard
 set clipboard=unnamedplus
