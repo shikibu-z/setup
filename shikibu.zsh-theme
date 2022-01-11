@@ -3,7 +3,7 @@
  # @Author      : Junyong Zhao (junyong@seas.upenn.edu)
  # @Date        : 2021-12-28 15:56:11
  # @LastEditors : Junyong Zhao (junyong@seas.upenn.edu)
- # @LastEditTime: 2021-12-28 16:57:45
+ # @LastEditTime: 2022-01-11 10:40:42
 ###
 
 # prompt for $PS1
@@ -11,6 +11,7 @@ PROMPT='▶ %{$fg_bold[green]%}%3~$(git_prompt_info)$(git_prompt_status)%{$reset
 
 # display return status code
 local return_code="%(?..%{$fg_bold[red]%}%?%{$reset_color%})";
+RPS1="${return_code}";
 
 # specify git prompt variables
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg_bold[cyan]%}";
