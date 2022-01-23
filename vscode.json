@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2021-12-28 16:52:14
+ * @LastEditTime: 2022-01-22 22:26:00
  */
 {
     // 隐私，更新，测试功能设置
@@ -10,6 +10,7 @@
     "update.mode": "none",
     "update.showReleaseNotes": false,
     // 文件，面板，图标设置
+    "explorer.confirmDelete": false,
     "files.autoGuessEncoding": true,
     "git.ignoreMissingGitWarning": true,
     "workbench.startupEditor": "none",
@@ -18,7 +19,7 @@
     "workbench.iconTheme": "material-icon-theme", // * install
     //编辑器，终端设置
     "editor.fontSize": 14,
-    "editor.fontFamily": "Hack", // * install
+    "editor.fontFamily": "Menlo, 苹方-简", // * install
     "editor.lineHeight": 23,
     "editor.wordWrap": "on",
     "editor.cursorBlinking": "solid",
@@ -87,9 +88,9 @@
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
     // python
     "python.terminal.activateEnvironment": false,
-    "python.pythonPath": "/usr/bin/python3", // * OS
-    "python.linting.pylintPath": "/usr/bin/pylint", // * OS
-    "python.formatting.autopep8Path": "/usr/bin/autopep8", // * OS
+    "python.pythonPath": "/opt/homebrew/bin/python3", // * OS
+    "python.linting.pylintPath": "/opt/homebrew/bin/pylint", // * OS
+    "python.formatting.autopep8Path": "/opt/homebrew/bin/autopep8", // * OS
     "[python]": {
         "editor.guides.bracketPairs": false
     },
@@ -115,11 +116,13 @@
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.rulers": []
     },
+    // Markdown Preview Github Styling
+    "markdown-preview-github-styles.colorTheme": "system",
     // LaTeX Workshop
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.autoClean.run": "onBuilt",
-    "latex-workshop.latexindent.path": "/home/linuxbrew/.linuxbrew/bin/latexindent", // * OS
+    "latex-workshop.latexindent.path": "/opt/homebrew/bin/latexindent", // * OS
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.tools": [
         {
