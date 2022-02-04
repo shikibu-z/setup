@@ -1,14 +1,13 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2022-01-22 22:26:00
+ * @LastEditTime: 2022-02-04 14:34:28
  */
 {
     // 隐私，更新，测试功能设置
-    "telemetry.telemetryLevel": "off",
-    "workbench.enableExperiments": false,
-    "update.mode": "none",
+    "update.mode": "manual",
     "update.showReleaseNotes": false,
+    "telemetry.telemetryLevel": "off",
     // 文件，面板，图标设置
     "explorer.confirmDelete": false,
     "files.autoGuessEncoding": true,
@@ -17,6 +16,7 @@
     "workbench.editor.untitled.hint": "hidden",
     "workbench.colorTheme": "Shikibu",
     "workbench.iconTheme": "material-icon-theme", // * install
+    "workbench.enableExperiments": false,
     //编辑器，终端设置
     "editor.fontSize": 14,
     "editor.fontFamily": "Menlo, 苹方-简", // * install
