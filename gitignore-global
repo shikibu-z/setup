@@ -1,0 +1,9 @@
+# @Description: This is a global gitignore file.
+# @Author     : Junyong Zhao (junyong@seas.upenn.edu)
+# @Date       : 2022-02-06 21:02:06
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

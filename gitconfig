@@ -4,5 +4,6 @@
 [core]
 	editor = vim
 	autocrlf = input
+	excludesfile = /Users/shikibu/.gitignore-global
 [credential]
 	helper = store
