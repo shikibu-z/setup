@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2022-02-04 14:34:28
+ * @LastEditTime: 2022-02-15 15:57:56
  */
 {
     // 隐私，更新，测试功能设置
@@ -86,9 +86,19 @@
     "gitlens.defaultTimeFormat": "hh:mm",
     // C / C++
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
+    "C_Cpp.default.includePath": [ // * OS
+        // system
+        "/Library/Developer/CommandLineTools/usr/include/**",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/**",
+        "/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/**",
+        // C++
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/**",
+        // Homebrew
+        "/opt/homebrew/include/**"
+    ],
     // python
     "python.terminal.activateEnvironment": false,
-    "python.pythonPath": "/opt/homebrew/bin/python3", // * OS
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3", // * OS
     "python.linting.pylintPath": "/opt/homebrew/bin/pylint", // * OS
     "python.formatting.autopep8Path": "/opt/homebrew/bin/autopep8", // * OS
     "[python]": {
