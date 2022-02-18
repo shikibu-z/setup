@@ -255,11 +255,13 @@
 	<key>WindowTitle</key>
 	<string>terminal</string>
 	<key>columnCount</key>
-	<integer>105</integer>
+	<integer>159</integer>
 	<key>name</key>
-	<string>feketerigo</string>
+	<string>shikibu</string>
+	<key>noWarnProcesses</key>
+	<array/>
 	<key>rowCount</key>
-	<integer>35</integer>
+	<integer>47</integer>
 	<key>shellExitAction</key>
 	<integer>1</integer>
 	<key>type</key>
