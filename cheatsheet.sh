@@ -1,13 +1,17 @@
 ###
  # @Description : This is a command cheatsheet for my daily use of macOS.
  # @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- # @LastEditTime: 2022-02-18 13:55:24
+ # @LastEditTime: 2022-03-25 14:50:45
 ###
 
 # brew update and upgrade
 brew update && brew outdated --greedy
 brew upgrade --formula && brew upgrade --cask --greedy
 brew autoremove && brew cleanup -s && rm -frv $(brew --cache)
+
+# reset/disable software gateway, see "man spctl"
+sudo spctl --reset-default
+sudo spctl --global-disable
 
 # extract archives
 7z/unrar x/e [path] -p[password] [dir] # unrar requires [dir] pre-exist
