@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@seas.upenn.edu)
- * @LastEditTime: 2022-04-10 10:25:12
+ * @LastEditTime: 2022-06-06 18:14:07
  */
 {
     // 隐私，更新，测试功能设置
@@ -15,12 +15,12 @@
     "workbench.startupEditor": "none",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.layoutControl.enabled": false,
-    "workbench.colorTheme": "Shikibu",
-    "workbench.iconTheme": "material-icon-theme", // * install
+    // "workbench.colorTheme": "Shikibu", // * install
+    // "workbench.iconTheme": "material-icon-theme", // * install
     "workbench.enableExperiments": false,
     //编辑器，终端设置
     "editor.fontSize": 14,
-    "editor.fontFamily": "Menlo, 苹方-简", // * install
+    // "editor.fontFamily": "SF Mono, 苹方-简", // * install
     "editor.lineHeight": 23,
     "editor.wordWrap": "on",
     "editor.cursorBlinking": "solid",
@@ -28,7 +28,6 @@
     "editor.rulers": [
         80
     ],
-    "debug.console.fontSize": 14,
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.inheritEnv": false,
     // 扩展设置
@@ -66,25 +65,25 @@
     },
     // 自动折行
     "rewrap.autoWrap.enabled": true,
-    // GitLens
-    "gitlens.menus": {
-        "editor": false,
-        "editorGroup": {
-            "blame": false,
-            "compare": true
-        },
-        "editorTab": false,
-        "explorer": false,
-        "scm": false,
-        "scmGroupInline": false,
-        "scmGroup": false,
-        "scmItem": false
-    },
-    "gitlens.codeLens.enabled": false,
-    "gitlens.statusBar.enabled": false,
-    "gitlens.defaultDateFormat": "YYYY-MM-DD hh:mm",
-    "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
-    "gitlens.defaultTimeFormat": "hh:mm",
+    // // GitLens
+    // "gitlens.menus": {
+    //     "editor": false,
+    //     "editorGroup": {
+    //         "blame": false,
+    //         "compare": true
+    //     },
+    //     "editorTab": false,
+    //     "explorer": false,
+    //     "scm": false,
+    //     "scmGroupInline": false,
+    //     "scmGroup": false,
+    //     "scmItem": false
+    // },
+    // "gitlens.codeLens.enabled": false,
+    // "gitlens.statusBar.enabled": false,
+    // "gitlens.defaultDateFormat": "YYYY-MM-DD hh:mm",
+    // "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
+    // "gitlens.defaultTimeFormat": "hh:mm",
     // C / C++
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
     "C_Cpp.default.includePath": [ // * OS
@@ -222,21 +221,21 @@
         "*.bcf",
         "*.xml"
     ],
-    // ltex
-    "ltex.enabled": [
-        "plaintext",
-        "markdown",
-        "latex",
-        "bibtex"
-    ],
-    "ltex.diagnosticSeverity": "hint",
-    "ltex.ltex-ls.logLevel": "severe",
-    // matlab
-    "matlab.matlabpath": "/Applications/MATLAB_R2020b.app/bin/maci64/MATLAB", // * OS
-    "matlab.mlintpath": "/Applications/MATLAB_R2020b.app/bin/maci64/mlint", // * OS
-    "files.associations": {
-        "*.m": "matlab"
-    },
-    // Red Hat YAML
-    "redhat.telemetry.enabled": false
+    // // ltex
+    // "ltex.enabled": [
+    //     "plaintext",
+    //     "markdown",
+    //     "latex",
+    //     "bibtex"
+    // ],
+    // "ltex.diagnosticSeverity": "hint",
+    // "ltex.ltex-ls.logLevel": "severe",
+    // // matlab
+    // "matlab.matlabpath": "/Applications/MATLAB_R2020b.app/bin/maci64/MATLAB", // * OS
+    // "matlab.mlintpath": "/Applications/MATLAB_R2020b.app/bin/maci64/mlint", // * OS
+    // "files.associations": {
+    //     "*.m": "matlab"
+    // },
+    // // Red Hat YAML
+    // "redhat.telemetry.enabled": false,
 }
