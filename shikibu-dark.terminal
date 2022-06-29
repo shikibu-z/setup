@@ -310,7 +310,7 @@
 	<key>Bell</key>
 	<false/>
 	<key>VisualBell</key>
-	<false/>
+	<true/>
 	<key>VisualBellOnlyWhenMuted</key>
 	<false/>
 	<key>BellBadge</key>
