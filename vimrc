@@ -1,5 +1,5 @@
 " @Description : This is my configuration file for Vim.
-" @Author      : Junyong Zhao (junyong@seas.upenn.edu)
+" @Author      : Junyong Zhao (junyong@arizona.edu)
 " @LastEditTime: 2021-07-11 15:10
 
 " Use Vim instead of Vi
@@ -8,7 +8,7 @@ set nocompatible
 " Looking
 set shortmess=atI
 set t_Co=256
-colorscheme ron
+" colorscheme ron
 set number
 set ruler
 set wrap

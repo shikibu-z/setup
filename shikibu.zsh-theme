@@ -1,9 +1,8 @@
 ###
  # @Description : My theme for oh my zsh.
- # @Author      : Junyong Zhao (junyong@seas.upenn.edu)
+ # @Author      : Junyong Zhao (junyong@arizona.edu)
  # @Date        : 2021-12-28 15:56:11
- # @LastEditors : Junyong Zhao (junyong@seas.upenn.edu)
- # @LastEditTime: 2022-01-11 11:30:46
+ # @LastEditTime: 2022-08-28 11:25:54
 ###
 
 # prompt for $PS1

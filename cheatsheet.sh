@@ -1,6 +1,6 @@
 ###
  # @Description : This is a command cheatsheet for my daily use of macOS.
- # @Author      : Junyong Zhao (junyong@seas.upenn.edu)
+ # @Author      : Junyong Zhao (junyong@arizona.edu)
  # @LastEditTime: 2022-03-25 14:50:45
 ###
 
