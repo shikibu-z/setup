@@ -8,7 +8,8 @@ set nocompatible
 " Looking
 set shortmess=atI
 set t_Co=256
-" colorscheme ron
+set bg=dark
+colorscheme gruvbox
 set number
 set ruler
 set wrap
