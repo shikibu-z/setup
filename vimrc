@@ -1,6 +1,6 @@
 " @Description : This is my configuration file for Vim.
 " @Author      : Junyong Zhao (junyong@arizona.edu)
-" @LastEditTime: 2021-07-11 15:10
+" @LastEditTime: 2022-09-12 15:43
 
 " Use Vim instead of Vi
 set nocompatible
@@ -9,6 +9,7 @@ set nocompatible
 set shortmess=atI
 set t_Co=256
 set bg=dark
+let g:gruvbox_contrast_dark='hard'
 colorscheme gruvbox
 set number
 set ruler
