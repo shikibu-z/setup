@@ -1,9 +1,12 @@
 " @Description : This is my configuration file for Vim.
 " @Author      : Junyong Zhao (junyong@arizona.edu)
-" @LastEditTime: 2022-09-12 15:43
+" @LastEditTime: 2022-09-13 10:56
 
 " Use Vim instead of Vi
 set nocompatible
+
+" Put viminfo under .vim
+set viminfo+=n~/.vim/viminfo
 
 " Looking
 set shortmess=atI
