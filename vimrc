@@ -10,8 +10,8 @@ set viminfo+=n~/.vim/viminfo
 
 " Looking
 set shortmess=atI
-set t_Co=256
-set bg=dark
+set term=xterm-256color
+set background=dark
 let g:gruvbox_contrast_dark='hard'
 colorscheme gruvbox
 set number

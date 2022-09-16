@@ -1,26 +1,28 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@arizona.edu)
- * @LastEditTime: 2022-08-28 11:44:15
+ * @LastEditTime: 2022-09-15 17:51:53
  */
 {
     // 隐私，更新，测试功能设置
     "update.mode": "manual",
     "update.showReleaseNotes": false,
     "telemetry.telemetryLevel": "off",
-    // 文件，面板，图标设置
+    // 文件，面板，主题，图标设置
     "explorer.confirmDelete": false,
     "files.autoGuessEncoding": true,
     "git.ignoreMissingGitWarning": true,
     "workbench.startupEditor": "none",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.layoutControl.enabled": false,
-    // "workbench.colorTheme": "Chinolor", // * install
-    // "workbench.iconTheme": "material-icon-theme", // * install
+    // "workbench.colorTheme": "Chinolor", // install
+    // "workbench.iconTheme": "material-icon-theme", // install
     "workbench.enableExperiments": false,
     //编辑器，终端设置
     "editor.fontSize": 14,
-    // "editor.fontFamily": "Menlo, 苹方-简", // * install
+    // "editor.fontLigatures": true, // install
+    // "editor.fontFamily": "Fira Code Retina, 苹方-简", // install
+    // "terminal.integrated.fontFamily": "Fira Code, 苹方-简", // install
     "editor.lineHeight": 23,
     "editor.wordWrap": "on",
     "editor.cursorBlinking": "solid",
@@ -60,28 +62,27 @@
         "Description": "",
         "Author": "Junyong Zhao (junyong@arizona.edu)",
         "Date": "Do not edit",
-        "LastEditors": "Junyong Zhao (junyong@arizona.edu)",
         "LastEditTime": "Do not edit"
     },
     // 自动折行
     "rewrap.autoWrap.enabled": true,
     // C / C++
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
-    "C_Cpp.default.includePath": [ // * OS
-        // system
-        "/Library/Developer/CommandLineTools/usr/include/**",
-        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/**",
-        "/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/**",
-        // C++
-        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/**",
-        // Homebrew
-        "/opt/homebrew/include/**"
-    ],
+    // "C_Cpp.default.includePath": [ // * OS
+    //     // system
+    //     "/Library/Developer/CommandLineTools/usr/include/**",
+    //     "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/**",
+    //     "/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/**",
+    //     // C++
+    //     "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/**",
+    //     // Homebrew
+    //     "/opt/homebrew/include/**"
+    // ],
     // python
     "python.terminal.activateEnvironment": false,
-    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3", // * OS
-    "python.linting.pylintPath": "/opt/homebrew/bin/pylint", // * OS
-    "python.formatting.autopep8Path": "/opt/homebrew/bin/autopep8", // * OS
+    // "python.defaultInterpreterPath": "/opt/homebrew/bin/python3", // OS
+    // "python.linting.pylintPath": "/opt/homebrew/bin/pylint", // OS
+    // "python.formatting.autopep8Path": "/opt/homebrew/bin/autopep8", // OS
     "[python]": {
         "editor.guides.bracketPairs": false
     },
@@ -113,7 +114,7 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.autoClean.run": "onBuilt",
-    "latex-workshop.latexindent.path": "/opt/homebrew/bin/latexindent", // * OS
+    // "latex-workshop.latexindent.path": "/opt/homebrew/bin/latexindent", // OS
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.tools": [
         {
