@@ -211,17 +211,17 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
 	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGkCwwVFlUkbnVsbNQNDg8QERIT
-	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNALAAAAAAAABAQgAKAA18QD0Zp
-	cmFDb2RlLVJldGluYdIXGBkaWiRjbGFzc25hbWVYJGNsYXNzZXNWTlNGb250ohkbWE5T
-	T2JqZWN0CBEaJCkyN0lMUVNYXmdud36FjpCSlKartr/GyQAAAAAAAAEBAAAAAAAAABwA
-	AAAAAAAAAAAAAAAAAADS
+	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNALAAAAAAAABAQgAKAA18QFUpl
+	dEJyYWluc01vbm8tUmVndWxhctIXGBkaWiRjbGFzc25hbWVYJGNsYXNzZXNWTlNGb250
+	ohkbWE5TT2JqZWN0CBEaJCkyN0lMUVNYXmdud36FjpCSlKyxvMXMzwAAAAAAAAEBAAAA
+	AAAAABwAAAAAAAAAAAAAAAAAAADY
 	</data>
 	<key>FontAntialias</key>
 	<true/>
 	<key>FontHeightSpacing</key>
 	<integer>1</integer>
 	<key>FontWidthSpacing</key>
-	<integer>1</integer>
+	<real>1.05</real>
 	<key>ProfileCurrentVersion</key>
 	<real>2.0699999999999998</real>
 	<key>RunCommandAsShell</key>
