@@ -1,12 +1,11 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@arizona.edu)
- * @LastEditTime: 2022-10-03 14:17:13
+ * @LastEditTime: 2022-10-13 19:24:10
  */
 {
     // 隐私，更新，测试功能设置
     "update.mode": "manual",
-    "update.showReleaseNotes": false,
     "telemetry.telemetryLevel": "off",
     // 文件，面板，主题，图标设置
     "explorer.confirmDelete": false,
@@ -16,7 +15,6 @@
     "workbench.editor.untitled.hint": "hidden",
     "workbench.layoutControl.enabled": false,
     "workbench.colorTheme": "Chinolor", // install
-    // "workbench.iconTheme": "material-icon-theme", // install
     "workbench.list.mouseWheelScrollSensitivity": 0.5,
     "workbench.list.fastScrollSensitivity": 2.5,
     "workbench.enableExperiments": false,
@@ -34,7 +32,6 @@
     "editor.mouseWheelScrollSensitivity": 0.5,
     "editor.fastScrollSensitivity": 2.5,
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "JetBrains Mono, 苹方-简", // install
     "terminal.integrated.inheritEnv": false,
     "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
     "terminal.integrated.fastScrollSensitivity": 2.5,
@@ -43,7 +40,6 @@
     "extensions.autoCheckUpdates": false,
     "extensions.ignoreRecommendations": true,
     // vim
-    "vim.smartRelativeLine": true,
     "vim.useSystemClipboard": true,
     "vim.handleKeys": {
         "<C-w>": false,
