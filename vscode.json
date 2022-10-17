@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@arizona.edu)
- * @LastEditTime: 2022-10-13 19:24:10
+ * @LastEditTime: 2022-10-16 18:58:54
  */
 {
     // 隐私，更新，测试功能设置
@@ -21,7 +21,7 @@
     //编辑器，终端设置
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "JetBrains Mono, 苹方-简", // install
+    "editor.fontFamily": "JetBrains Mono, SF Pro", // install
     "editor.lineHeight": 1.7,
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "solid",
