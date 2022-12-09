@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@arizona.edu)
- * @LastEditTime: 2022-10-16 18:58:54
+ * @LastEditTime: 2022-12-08 13:00:16
  */
 {
     // 隐私，更新，测试功能设置
@@ -12,9 +12,10 @@
     "files.autoGuessEncoding": true,
     "git.ignoreMissingGitWarning": true,
     "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
     "workbench.editor.untitled.hint": "hidden",
     "workbench.layoutControl.enabled": false,
-    "workbench.colorTheme": "Chinolor", // install
+    // "workbench.colorTheme": "Chinolor", // install
     "workbench.list.mouseWheelScrollSensitivity": 0.5,
     "workbench.list.fastScrollSensitivity": 2.5,
     "workbench.enableExperiments": false,
@@ -22,6 +23,7 @@
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.fontFamily": "JetBrains Mono, SF Pro", // install
+    "editor.letterSpacing": 0.2,
     "editor.lineHeight": 1.7,
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "solid",
@@ -32,12 +34,13 @@
     "editor.mouseWheelScrollSensitivity": 0.5,
     "editor.fastScrollSensitivity": 2.5,
     "terminal.integrated.fontSize": 14,
+    "terminal.integrated.letterSpacing": 1,
+    "terminal.integrated.lineHeight": 1.15,
     "terminal.integrated.inheritEnv": false,
     "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
     "terminal.integrated.fastScrollSensitivity": 2.5,
     // 扩展设置
     "extensions.autoUpdate": false,
-    "extensions.autoCheckUpdates": false,
     "extensions.ignoreRecommendations": true,
     // vim
     "vim.useSystemClipboard": true,
@@ -64,7 +67,6 @@
     "fileheader.customMade": {
         "Description": "",
         "Author": "Junyong Zhao (junyong@arizona.edu)",
-        "Date": "Do not edit",
         "LastEditTime": "Do not edit"
     },
     // 自动折行
@@ -207,5 +209,14 @@
         "*.fdb_latexmk",
         "*.bcf",
         "*.xml"
-    ]
+    ],
+    // ltex
+    "ltex.enabled": [
+        "plaintext",
+        "markdown",
+        "latex"
+    ],
+    "ltex.language": "en-US",
+    "ltex.ltex-ls.logLevel": "severe",
+    "ltex.diagnosticSeverity": "hint"
 }

@@ -1,7 +1,7 @@
 ###
  # @Description : This is a command cheatsheet for my daily use of macOS.
  # @Author      : Junyong Zhao (junyong@arizona.edu)
- # @LastEditTime: 2022-03-25 14:50:45
+ # @LastEditTime: 2022-12-09 13:04:54
 ###
 
 # brew update and upgrade
@@ -10,15 +10,21 @@ brew upgrade --formula && brew upgrade --cask --greedy
 brew autoremove && brew cleanup -s && rm -frv $(brew --cache)
 
 # reset/disable software gateway, see "man spctl"
-sudo spctl --reset-default
-sudo spctl --global-disable
+sudo spctl --reset-default && sudo spctl --global-disable
+
+# disable app powernap
+defaults write NSGlobalDomain NSAppSleepDisabled -bool YES
 
 # extract archives
-7z/unrar x/e [path] -p[password] [dir] # unrar requires [dir] pre-exist
+unrar(7za) x [relative file path] -p[password] (-o)[dir]
 
 # file permission
-find . -type f -exec chmod 644 {} \; # all files should be rwxr--r--
-find . -type d -exec chmod 755 {} \; # all directories should be  rwxr-xr-x
+# all regular files should be rw-------
+# all directories/executable files should be  rwx------
+sudo chmod -R g-rwx * .* && sudo chmod -R o-rwx * .*
+# chmod should be preferred
+find . -type f -exec chmod 600 {} \;
+find . -type d -exec chmod 700 {} \;
 
 # launchctl service
 launchctl unload -w /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*

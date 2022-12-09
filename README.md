@@ -1,7 +1,7 @@
 # unix-setup
-My config files for unix-like systems.
+My config (dot) files and useful shell scripts for unix-like systems, used for
+macOS and Ubuntu.
 
-## File Structure & Permissions
-+ All regular files should have permission `644 rw-r--r--`
-+ All shell scripts that are EXECUTABLE should have permission `744 rwxr--r--`
-+ All directories should have permission `755 rwxr-xr-x`
+## Permissions
+- All config (dot) files should have permission `600 rw-------`
+- All shell scripts that are EXECUTABLE should have permission `700 rwx------`
