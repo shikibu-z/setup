@@ -1,7 +1,7 @@
 /*
  * @Description : This is my configuration file for Visual Studio Code.
  * @Author      : Junyong Zhao (junyong@arizona.edu)
- * @LastEditTime: 2022-12-08 13:00:16
+ * @LastEditTime: 2023-01-14 12:39:57
  */
 {
     // 隐私，更新，测试功能设置
@@ -115,9 +115,9 @@
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.rulers": []
     },
-    // Markdown Preview Github Styling
+    // Markdown渲染样式
     "markdown-preview-github-styles.colorTheme": "system",
-    // LaTeX Workshop
+    // LaTeX环境
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.autoClean.run": "onBuilt",
@@ -210,13 +210,10 @@
         "*.bcf",
         "*.xml"
     ],
-    // ltex
-    "ltex.enabled": [
-        "plaintext",
+    // 拼写检查
+    "cSpell.enabledLanguageIds": [
+        "latex",
         "markdown",
-        "latex"
-    ],
-    "ltex.language": "en-US",
-    "ltex.ltex-ls.logLevel": "severe",
-    "ltex.diagnosticSeverity": "hint"
+        "plaintext"
+    ]
 }
