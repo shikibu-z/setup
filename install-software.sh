@@ -1,11 +1,3 @@
-###
- # @Description : This is a script that install softwares
- # via package management utility. This file is for recode
- # ONLY! Do check before using any commands!
- # @Author      : Junyong Zhao (junyong@arizona.edu)
- # @LastEditTime: 2021-08-27 11:42:02
-###
-
 ## Ubuntu
 sudo apt update && sudo apt upgrade && sudo apt autoremove
 

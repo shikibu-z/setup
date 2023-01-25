@@ -1,8 +1,3 @@
-/*
- * @Description : This is my configuration file for Visual Studio Code.
- * @Author      : Junyong Zhao (junyong@arizona.edu)
- * @LastEditTime: 2023-01-14 12:39:57
- */
 {
     // 隐私，更新，测试功能设置
     "update.mode": "manual",
@@ -15,7 +10,8 @@
     "workbench.tips.enabled": false,
     "workbench.editor.untitled.hint": "hidden",
     "workbench.layoutControl.enabled": false,
-    // "workbench.colorTheme": "Chinolor", // install
+    "workbench.colorTheme": "Chinolor", // install
+    "workbench.iconTheme": "material-icon-theme", // install
     "workbench.list.mouseWheelScrollSensitivity": 0.5,
     "workbench.list.fastScrollSensitivity": 2.5,
     "workbench.enableExperiments": false,
@@ -50,25 +46,6 @@
         "<C-k>": false,
         "<C-x>": false
     },
-    // 文件标头
-    "fileheader.configObj": {
-        "autoAdd": false,
-        "wideSame": true,
-        "wideNum": 12,
-        "cursorModeInternalAll": {
-            "python": true,
-            "defaultSetting": false
-        },
-        "functionBlankSpaceAll": {
-            "python": 4,
-            "defaultSetting": 0
-        }
-    },
-    "fileheader.customMade": {
-        "Description": "",
-        "Author": "Junyong Zhao (junyong@arizona.edu)",
-        "LastEditTime": "Do not edit"
-    },
     // 自动折行
     "rewrap.autoWrap.enabled": true,
     // C / C++
@@ -87,7 +64,7 @@
     ],
     // python
     "python.terminal.activateEnvironment": false,
-    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3", // OS
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.11", // OS
     "python.linting.pylintPath": "/opt/homebrew/bin/pylint", // OS
     "python.formatting.autopep8Path": "/opt/homebrew/bin/autopep8", // OS
     "[python]": {
@@ -118,6 +95,9 @@
     // Markdown渲染样式
     "markdown-preview-github-styles.colorTheme": "system",
     // LaTeX环境
+    "[latex]": {
+        "editor.tabSize": 2
+    },
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.autoClean.run": "onBuilt",
@@ -211,6 +191,11 @@
         "*.xml"
     ],
     // 拼写检查
+    "cSpell.words": [
+        "hdfs",
+        "junyong",
+        "zhao"
+    ],
     "cSpell.enabledLanguageIds": [
         "latex",
         "markdown",

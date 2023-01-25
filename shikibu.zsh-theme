@@ -1,10 +1,3 @@
-###
- # @Description : My theme for oh my zsh.
- # @Author      : Junyong Zhao (junyong@arizona.edu)
- # @Date        : 2021-12-28 15:56:11
- # @LastEditTime: 2022-08-28 11:25:54
-###
-
 # prompt for $PS1
 PROMPT='▶ %{$fg_bold[green]%}%3~$(git_prompt_info)';
 PROMPT+='$(git_prompt_status)%{$reset_color%} ';

@@ -1,7 +1,3 @@
-" @Description : This is my configuration file for Vim.
-" @Author      : Junyong Zhao (junyong@arizona.edu)
-" @LastEditTime: 2022-09-13 10:56
-
 " Use Vim instead of Vi
 set nocompatible
 

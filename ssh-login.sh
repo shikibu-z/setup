@@ -1,11 +1,5 @@
 #!/bin/zsh
 
-###
- # @Description : This is my shell script for ssh connections.
- # @Author      : Junyong Zhao (junyong@arizona.edu)
- # @LastEditTime: 2022-08-29 10:43:46
-###
-
 host="$1"
 
 case "$host" in

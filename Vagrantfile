@@ -1,12 +1,6 @@
 ## -*- mode: ruby -*-
 ## vi: set ft=ruby :
 
-## @Description : This is a configuration file that setup my working virtual
-## machine. This file should be used with VirtualBox and Vagrant. The guest OS
-## is Ubuntu 16.04 xenial.
-## @Author      : Junyong Zhao (junyong@arizona.edu)
-## @LastEditTime: 2021-07-14 18:31:57
-
 Vagrant.configure(2) do |config|
 
   ## OS & host name
