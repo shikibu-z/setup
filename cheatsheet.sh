@@ -1,3 +1,6 @@
+# press key repetition
+defaults write -g ApplePressAndHoldEnabled -bool false
+
 # brew update and upgrade
 brew update && brew outdated --greedy
 brew upgrade --formula && brew upgrade --cask --greedy
@@ -29,5 +32,5 @@ launchctl unload -w /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*
 for i in *.wav; do ffmpeg -i "$i" -ar 48k -ac 2 -ab 320k -f mp3 "${i}.mp3"; done;
 
 # cropping/resizing pictures for album cover
-ffmpeg -i イラスト.jpg -vf scale=-1:500 cover-scale.jpg
-ffmpeg -i cover-scale.jpg -vf crop=500:500 cover.jpg
+ffmpeg -i イラスト.jpg -vf scale=-1:360 -q:v 0 cover-scale.jpg
+ffmpeg -i cover-scale.jpg -vf crop=360:360 -q:v 0 cover.jpg

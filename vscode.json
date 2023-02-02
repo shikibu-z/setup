@@ -1,24 +1,27 @@
 {
-    // 隐私，更新，测试功能设置
+    // 隐私，更新，联机测试设置
     "update.mode": "manual",
     "telemetry.telemetryLevel": "off",
+    "workbench.enableExperiments": false,
     // 文件，面板，主题，图标设置
     "explorer.confirmDelete": false,
     "files.autoGuessEncoding": true,
     "git.ignoreMissingGitWarning": true,
-    "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
-    "workbench.editor.untitled.hint": "hidden",
+    "workbench.startupEditor": "none",
     "workbench.layoutControl.enabled": false,
+    "workbench.editor.untitled.hint": "hidden",
     "workbench.colorTheme": "Chinolor", // install
     "workbench.iconTheme": "material-icon-theme", // install
-    "workbench.list.mouseWheelScrollSensitivity": 0.5,
     "workbench.list.fastScrollSensitivity": 2.5,
-    "workbench.enableExperiments": false,
-    //编辑器，终端设置
+    "workbench.list.mouseWheelScrollSensitivity": 0.5,
+    //编辑器设置
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.fontFamily": "JetBrains Mono, SF Pro", // install
+    "editor.tabSize": 4,
+    "editor.indentSize": "tabSize",
+    "editor.detectIndentation": false,
     "editor.letterSpacing": 0.2,
     "editor.lineHeight": 1.7,
     "editor.lineNumbers": "relative",
@@ -27,14 +30,19 @@
     "editor.rulers": [
         80
     ],
-    "editor.mouseWheelScrollSensitivity": 0.5,
     "editor.fastScrollSensitivity": 2.5,
+    "editor.mouseWheelScrollSensitivity": 0.5,
+    // 内建终端设置
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.letterSpacing": 1,
     "terminal.integrated.lineHeight": 1.15,
     "terminal.integrated.inheritEnv": false,
-    "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
     "terminal.integrated.fastScrollSensitivity": 2.5,
+    "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
+    // 文件关联设置
+    "files.associations": {
+        "*.json": "jsonc"
+    },
     // 扩展设置
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
@@ -105,16 +113,6 @@
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.tools": [
         {
-            "name": "XeLaTeX",
-            "command": "xelatex",
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "%DOCFILE%"
-            ]
-        },
-        {
             "name": "pdfLaTeX",
             "command": "pdflatex",
             "args": [
@@ -142,8 +140,9 @@
     ],
     "latex-workshop.latex.recipes": [
         {
-            "name": "pdfLaTeX",
+            "name": "pdfLaTeX->pdfLaTeX",
             "tools": [
+                "pdfLaTeX",
                 "pdfLaTeX"
             ]
         },
@@ -167,27 +166,27 @@
         }
     ],
     "latex-workshop.latex.clean.fileTypes": [
-        "*.aux",
-        "*.bbl",
-        "*.blg",
-        "*.idx",
-        "*.ind",
-        "*.lof",
-        "*.lot",
-        "*.out",
-        "*.toc",
         "*.acn",
         "*.acr",
         "*.alg",
+        "*.aux",
+        "*.bbl",
+        "*.bcf",
+        "*.blg",
+        "*.fdb_latexmk",
+        "*.fls",
         "*.glg",
         "*.glo",
         "*.gls",
+        "*.idx",
+        "*.ind",
         "*.ist",
-        "*.fls",
+        "*.lof",
         "*.log",
+        "*.lot",
+        "*.out",
         "*.synctex.gz",
-        "*.fdb_latexmk",
-        "*.bcf",
+        "*.toc",
         "*.xml"
     ],
     // 拼写检查
