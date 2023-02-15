@@ -42,7 +42,11 @@ set hlsearch
 set showmatch
 
 " Clipboard
-set clipboard=unnamedplus
+if system('uname -s')=="Darwin\n"
+    set clipboard=unnamed " macOS
+else
+    set clipboard=unnamedplus " Linux
+endif
 
 " Key bindings
 nmap Q <Nop>

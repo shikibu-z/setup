@@ -30,6 +30,7 @@
     "editor.rulers": [
         80
     ],
+    "editor.minimap.renderCharacters": false,
     "editor.fastScrollSensitivity": 2.5,
     "editor.mouseWheelScrollSensitivity": 0.5,
     // 内建终端设置
