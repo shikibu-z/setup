@@ -11,6 +11,9 @@
     "workbench.startupEditor": "none",
     "workbench.layoutControl.enabled": false,
     "workbench.editor.untitled.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
     "workbench.colorTheme": "Chinolor", // install
     "workbench.iconTheme": "material-icon-theme", // install
     "workbench.list.fastScrollSensitivity": 2.5,

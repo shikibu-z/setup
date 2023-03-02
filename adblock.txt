@@ -1,0 +1,13 @@
+[Adblock Plus]
+! my customize filter
+
+! bilibili.com
+bilibili.com##.adblock-tips
+bilibili.com##.bili-grid:has(> .eva-extension-area)
+bilibili.com##.eva-banner-shim
+bilibili.com##.topic-panel
+bilibili.com##.bpx-player-skipcard.bpx-player-show
+bilibili.com##.video-page-game-card-small
+bilibili.com##.video-page-special-card-small
+bilibili.com##.ad-report
+bilibili.com##.pop-live-small-mode

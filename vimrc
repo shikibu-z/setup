@@ -8,12 +8,6 @@ set viminfo+=n~/.vim/viminfo
 set shortmess+=I
 set laststatus=2
 
-" Theme
-set term=xterm-256color
-set background=dark
-let g:gruvbox_contrast_dark='hard'
-colorscheme gruvbox
-
 " Editor line number
 set number
 set relativenumber
