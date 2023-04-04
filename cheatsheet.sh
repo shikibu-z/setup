@@ -2,8 +2,11 @@
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # brew update and upgrade
-brew update && brew outdated --greedy
-brew upgrade --formula && brew upgrade --cask --greedy
+# --greedy option is not preferred to please electron-based apps
+brew update && brew outdated
+# brew update && brew outdated --greedy
+brew upgrade --formula && brew upgrade --cask
+# brew upgrade --formula && brew upgrade --cask --greedy
 brew autoremove && brew cleanup -s && rm -frv $(brew --cache)
 
 # reset/disable software gateway, see "man spctl"

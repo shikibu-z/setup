@@ -9,5 +9,6 @@ bilibili.com##.topic-panel
 bilibili.com##.bpx-player-skipcard.bpx-player-show
 bilibili.com##.video-page-game-card-small
 bilibili.com##.video-page-special-card-small
+bilibili.com##.video-page-operator-card-small
 bilibili.com##.ad-report
 bilibili.com##.pop-live-small-mode
