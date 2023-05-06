@@ -1,6 +1,6 @@
 {
     // 隐私，更新，联机测试设置
-    "update.mode": "manual",
+    "update.mode": "start",
     "telemetry.telemetryLevel": "off",
     "workbench.enableExperiments": false,
     // 文件，面板，主题，图标设置
@@ -170,6 +170,7 @@
             ]
         }
     ],
+    "latex-workshop.latex.clean.method": "glob",
     "latex-workshop.latex.clean.fileTypes": [
         "*.acn",
         "*.acr",

@@ -1,3 +1,6 @@
+# fast dock autohide
+defaults write com.apple.dock autohide-delay -float 0
+
 # press key repetition
 defaults write -g ApplePressAndHoldEnabled -bool false
 
