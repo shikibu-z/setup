@@ -3,6 +3,7 @@
 
 ! bilibili.com
 bilibili.com##.adblock-tips
+bilibili.com##.renew-bubble
 bilibili.com##.v-popover-wrap.left-loc-entry
 bilibili.com##.bili-grid:has(> .eva-extension-area)
 bilibili.com##.eva-banner-shim
