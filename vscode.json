@@ -1,5 +1,6 @@
 {
     // 隐私，更新，联机测试设置
+    "security.workspace.trust.enabled": false,
     "update.mode": "start",
     "telemetry.telemetryLevel": "off",
     "workbench.enableExperiments": false,

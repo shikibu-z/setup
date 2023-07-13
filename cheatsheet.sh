@@ -6,7 +6,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # brew update and upgrade
 # --greedy option is not preferred to please electron-based apps
-brew update && brew outdated
+brew update --quiet && brew outdated
 # brew update && brew outdated --greedy
 brew upgrade --formula && brew upgrade --cask
 # brew upgrade --formula && brew upgrade --cask --greedy
