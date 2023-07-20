@@ -45,6 +45,7 @@
     "terminal.integrated.inheritEnv": false,
     "terminal.integrated.fastScrollSensitivity": 2.5,
     "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
     // 文件关联设置
     "files.associations": {
         "*.json": "jsonc"
