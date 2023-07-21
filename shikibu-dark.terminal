@@ -309,8 +309,8 @@
 	<string></string>
 	<key>columnCount</key>
 	<integer>145</integer>
-    <key>keyMapBoundKeys</key>
-    <dict/>
+	<key>keyMapBoundKeys</key>
+	<dict/>
 	<key>name</key>
 	<string>shikibu-dark</string>
 	<key>noWarnProcesses</key>
