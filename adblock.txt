@@ -3,14 +3,26 @@
 
 ! bilibili.com
 bilibili.com##.adblock-tips
+bilibili.com##.trending
 bilibili.com##.renew-bubble
 bilibili.com##.v-popover-wrap.left-loc-entry
 bilibili.com##.bili-grid:has(> .eva-extension-area)
 bilibili.com##.eva-banner-shim
-bilibili.com##.topic-panel
+bilibili.com##.battle-area
+bilibili.com##.activity-game-list
+bilibili.com##a[href*="cm.bilibili.com"]
+bilibili.com##.bili-dyn-banner
+bilibili.com##.bili-dyn-topic-box
+bilibili.com##.bili-dyn-card-link-common
+bilibili.com##.dyn-additional-common
 bilibili.com##.bpx-player-skipcard.bpx-player-show
 bilibili.com##.video-page-game-card-small
 bilibili.com##.video-page-special-card-small
 bilibili.com##.video-page-operator-card-small
+bilibili.com###activity_vote
+bilibili.com##.reply-notice
 bilibili.com##.ad-report
 bilibili.com##.pop-live-small-mode
+
+! wikipedia.org
+wikipedia.org###siteNotice

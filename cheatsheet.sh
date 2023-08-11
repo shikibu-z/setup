@@ -4,6 +4,16 @@ defaults write com.apple.dock autohide-delay -float 0
 # press key repetition
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+# reset/disable software gateway, see "man spctl"
+sudo spctl --reset-default && sudo spctl --global-disable
+
+# pmset and powernap
+sudo pmset -a powernap 0 ttyskeepawake 0
+defaults write NSGlobalDomain NSAppSleepDisabled -bool YES
+
+# rebuild spotlight index
+sudo mdutil -a -i off && sudo mdutil -a -E / && sudo mdutil -a -i on
+
 # brew update and upgrade
 # --greedy option is not preferred to please electron-based apps
 brew update --quiet && brew outdated
@@ -11,13 +21,6 @@ brew update --quiet && brew outdated
 brew upgrade --formula && brew upgrade --cask
 # brew upgrade --formula && brew upgrade --cask --greedy
 brew autoremove && brew cleanup -s && rm -frv $(brew --cache)
-
-# reset/disable software gateway, see "man spctl"
-sudo spctl --reset-default && sudo spctl --global-disable
-
-# pmset and powernap
-sudo pmset -a powernap 0 ttyskeepawake 0
-defaults write NSGlobalDomain NSAppSleepDisabled -bool YES
 
 # extract archives
 unrar(7za) x [relative file path] -p[password] (-o)[dir]

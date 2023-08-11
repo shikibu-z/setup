@@ -5,7 +5,7 @@ password="$1"
 # Homebrew
 brew update --quiet && brew outdated
 brew upgrade --formula && brew upgrade --cask
-brew autoremove && brew cleanup -s && rm -frv $(brew --cache)
+brew autoremove && brew cleanup -s
 
 # Oh My Zsh
 /Users/shikibu/.oh-my-zsh/tools/upgrade.sh

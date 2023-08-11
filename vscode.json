@@ -80,10 +80,9 @@
     // python
     "python.terminal.activateEnvironment": false,
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.11", // OS
-    "python.linting.pylintPath": "/opt/homebrew/bin/pylint", // OS
-    "python.formatting.autopep8Path": "/opt/homebrew/bin/autopep8", // OS
     "[python]": {
-        "editor.guides.bracketPairs": false
+        "editor.guides.bracketPairs": false,
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
     // Web
     "[html]": {
