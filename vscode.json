@@ -5,6 +5,7 @@
     "telemetry.telemetryLevel": "off",
     "workbench.enableExperiments": false,
     // 文件，面板，主题，图标设置
+    "window.commandCenter": false,
     "explorer.confirmDelete": false,
     "files.autoGuessEncoding": true,
     "git.ignoreMissingGitWarning": true,
@@ -22,7 +23,6 @@
     "workbench.list.mouseWheelScrollSensitivity": 0.5,
     //编辑器设置
     "editor.fontSize": 14,
-    "editor.fontLigatures": true,
     "editor.fontFamily": "JetBrains Mono, SF Pro", // install
     "editor.tabSize": 4,
     "editor.indentSize": "tabSize",
@@ -66,16 +66,12 @@
     // C / C++
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
     "C_Cpp.default.includePath": [ // * OS
-        // system C
+        // System
         "/Library/Developer/CommandLineTools/usr/include/**",
+        "/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/**",
         "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/**",
-        "/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include/**",
-        // system C++
-        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/**",
         // Homebrew
-        "/opt/homebrew/include/**",
-        // home usr
-        "/Users/shikibu/usr/include/**"
+        "/opt/homebrew/include/**"
     ],
     // python
     "python.terminal.activateEnvironment": false,
@@ -109,7 +105,13 @@
     // Markdown渲染样式
     "markdown-preview-github-styles.colorTheme": "system",
     // LaTeX环境
+    "[tex]": {
+        "editor.tabSize": 2
+    },
     "[latex]": {
+        "editor.tabSize": 2
+    },
+    "[bibtex]": {
         "editor.tabSize": 2
     },
     "latex-workshop.view.pdf.viewer": "tab",

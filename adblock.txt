@@ -26,3 +26,4 @@ bilibili.com##.pop-live-small-mode
 
 ! wikipedia.org
 wikipedia.org###siteNotice
+wikipedia.org###centralNotice
