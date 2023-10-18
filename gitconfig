@@ -1,9 +1,14 @@
 [user]
 	name = Junyong Zhao
 	email = junyong@arizona.edu
+	signingkey = ~/.ssh/id_ed25519.pub
 [core]
 	editor = vim
 	autocrlf = input
 	excludesfile = ~/.gitignore-global
+[gpg]
+	format = ssh
 [credential]
 	helper = store
+[commit]
+	gpgsign = true

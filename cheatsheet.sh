@@ -20,7 +20,7 @@ brew update --quiet && brew outdated
 # brew update && brew outdated --greedy
 brew upgrade --formula && brew upgrade --cask
 # brew upgrade --formula && brew upgrade --cask --greedy
-brew autoremove && brew cleanup -s && rm -frv $(brew --cache)
+brew autoremove && brew cleanup -s --prune=all
 
 # extract archives
 unrar(7za) x [relative file path] -p[password] (-o)[dir]
