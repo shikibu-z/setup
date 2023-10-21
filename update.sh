@@ -3,8 +3,8 @@
 password="$1"
 
 # Homebrew
-brew update --quiet && brew outdated
-brew upgrade --formula && brew upgrade --cask
+brew update --quiet && brew outdated --greedy
+brew upgrade --formula && brew upgrade --cask --greedy
 brew autoremove && brew cleanup -s --prune=all
 
 # Oh My Zsh

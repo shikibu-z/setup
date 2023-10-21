@@ -15,11 +15,10 @@ defaults write NSGlobalDomain NSAppSleepDisabled -bool YES
 sudo mdutil -a -i off && sudo mdutil -a -E / && sudo mdutil -a -i on
 
 # brew update and upgrade
-# --greedy option is not preferred to please electron-based apps
-brew update --quiet && brew outdated
-# brew update && brew outdated --greedy
-brew upgrade --formula && brew upgrade --cask
-# brew upgrade --formula && brew upgrade --cask --greedy
+# --greedy should be added when "app management" for terminal is allowed is
+# system preferences
+brew update --quiet && brew outdated --greedy
+brew upgrade --formula && brew upgrade --cask --greedy
 brew autoremove && brew cleanup -s --prune=all
 
 # extract archives
