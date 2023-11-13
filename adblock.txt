@@ -11,6 +11,7 @@ bilibili.com##.bili-dyn-topic
 bilibili.com##.bili-dyn-card-link-common
 bilibili.com##.bili-dyn-banner
 bilibili.com##.bili-dyn-topic-box
+bilibili.com##.bpx-player-ctrl-btn.bpx-player-ctrl-flac
 bilibili.com##.video-page-game-card-small
 bilibili.com##.video-page-special-card-small
 bilibili.com##.ad-report
