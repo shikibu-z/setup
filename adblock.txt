@@ -1,26 +1,19 @@
-[Adblock Plus]
-! my customize filter
+[Adblock Plus 2.0]
+! My customized filter
 
-! bilibili.com
+! Bilibili
 bilibili.com##.adblock-tips
-bilibili.com##.trending
-bilibili.com##.renew-bubble
 bilibili.com##.v-popover-wrap.left-loc-entry
-bilibili.com##.bili-grid:has(> .eva-extension-area)
-bilibili.com##.eva-banner-shim
-bilibili.com##.battle-area
-bilibili.com##.activity-game-list
+bilibili.com##.trending
+bilibili.com##.vip-wrap
 bilibili.com##a[href*="cm.bilibili.com"]
+bilibili.com##.activity-game-list
+bilibili.com##.bili-dyn-topic
+bilibili.com##.bili-dyn-card-link-common
 bilibili.com##.bili-dyn-banner
 bilibili.com##.bili-dyn-topic-box
-bilibili.com##.bili-dyn-card-link-common
-bilibili.com##.dyn-additional-common
-bilibili.com##.bpx-player-skipcard.bpx-player-show
 bilibili.com##.video-page-game-card-small
 bilibili.com##.video-page-special-card-small
-bilibili.com##.video-page-operator-card-small
-bilibili.com###activity_vote
-bilibili.com##.reply-notice
 bilibili.com##.ad-report
 bilibili.com##.pop-live-small-mode
 
