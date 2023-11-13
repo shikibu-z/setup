@@ -1,7 +1,3 @@
-[Adblock Plus 2.0]
-! My customized filter
-
-! Bilibili
 bilibili.com##.adblock-tips
 bilibili.com##.v-popover-wrap.left-loc-entry
 bilibili.com##.trending
@@ -16,7 +12,5 @@ bilibili.com##.video-page-game-card-small
 bilibili.com##.video-page-special-card-small
 bilibili.com##.ad-report
 bilibili.com##.pop-live-small-mode
-
-! wikipedia.org
 wikipedia.org###siteNotice
 wikipedia.org###centralNotice
