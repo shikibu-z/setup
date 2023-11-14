@@ -9,6 +9,7 @@ bilibili.com##a[href*="cm.bilibili.com"]
 bilibili.com##.activity-game-list
 bilibili.com##.bili-dyn-topic
 bilibili.com##.bili-dyn-card-link-common
+bilibili.com##.bili-dyn-content__orig__additional
 bilibili.com##.bili-dyn-banner
 bilibili.com##.bili-dyn-topic-box
 bilibili.com##.bpx-player-ctrl-btn.bpx-player-ctrl-flac
