@@ -3,6 +3,7 @@
 ! Bilibili
 bilibili.com##.adblock-tips
 bilibili.com##.v-popover-wrap.left-loc-entry
+bilibili.com##.v-popover-wrap:has(>a[href*="app.bilibili.com"])
 bilibili.com##.trending
 bilibili.com##.vip-wrap
 bilibili.com##a[href*="cm.bilibili.com"]
@@ -15,6 +16,7 @@ bilibili.com##.bili-dyn-topic-box
 bilibili.com##.bpx-player-ctrl-btn.bpx-player-ctrl-flac
 bilibili.com##.video-page-game-card-small
 bilibili.com##.video-page-special-card-small
+bilibili.com##.video-page-operator-card-small
 bilibili.com##.ad-report
 bilibili.com##.pop-live-small-mode
 ! Wikipedia
