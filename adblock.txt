@@ -13,6 +13,7 @@ bilibili.com##.bili-dyn-card-link-common
 bilibili.com##.bili-dyn-content__orig__additional
 bilibili.com##.bili-dyn-banner
 bilibili.com##.bili-dyn-topic-box
+bilibili.com##.bpx-player-skipcard.bpx-player-show
 bilibili.com##.bpx-player-ctrl-btn.bpx-player-ctrl-flac
 bilibili.com###activity_vote
 bilibili.com##.reply-notice
