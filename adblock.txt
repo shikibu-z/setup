@@ -8,6 +8,8 @@ bilibili.com##.trending
 bilibili.com##.vip-wrap
 bilibili.com##.recommended-swipe.grid-anchor
 bilibili.com##a[href*="cm.bilibili.com"]
+bilibili.com##.bili-live-card
+bilibili.com##.floor-single-card
 bilibili.com##.activity-game-list
 bilibili.com##.bili-dyn-topic
 bilibili.com##.bili-dyn-card-link-common
