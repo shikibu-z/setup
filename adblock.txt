@@ -6,6 +6,7 @@ bilibili.com##.v-popover-wrap.left-loc-entry
 bilibili.com##.v-popover-wrap:has(>a[href*="app.bilibili.com"])
 bilibili.com##.trending
 bilibili.com##.vip-wrap
+bilibili.com##.recommended-swipe.grid-anchor
 bilibili.com##a[href*="cm.bilibili.com"]
 bilibili.com##.activity-game-list
 bilibili.com##.bili-dyn-topic
