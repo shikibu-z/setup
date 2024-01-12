@@ -13,8 +13,11 @@ bilibili.com##.bili-dyn-card-link-common
 bilibili.com##.bili-dyn-content__orig__additional
 bilibili.com##.bili-dyn-banner
 bilibili.com##.bili-dyn-topic-box
+bilibili.com##.bili-dm.bili-roll.bili-upslogan.bili-show
+bilibili.com##.bpx-player-cmd-dm-wrap
 bilibili.com##.bpx-player-skipcard.bpx-player-show
 bilibili.com##.bpx-player-ctrl-btn.bpx-player-ctrl-flac
+bilibili.com##.bpx-player-postpanel-sug.sugShow
 bilibili.com###activity_vote
 bilibili.com##.reply-notice
 bilibili.com##.video-page-game-card-small
