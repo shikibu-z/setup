@@ -1,19 +1,20 @@
 {
     // 隐私，更新，联机测试设置
     "security.workspace.trust.enabled": false,
-    "update.mode": "start",
+    "update.mode": "none",
     "telemetry.telemetryLevel": "off",
     "workbench.enableExperiments": false,
     // 文件，面板，主题，图标设置
     "window.commandCenter": false,
     "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
     "files.autoGuessEncoding": true,
     "git.ignoreMissingGitWarning": true,
     "git.openRepositoryInParentFolders": "never",
     "workbench.tips.enabled": false,
     "workbench.startupEditor": "none",
     "workbench.layoutControl.enabled": false,
-    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.empty.hint": "hidden",
     "workbench.editorAssociations": {
         "*.pdf": "latex-workshop-pdf-hook"
     },
@@ -23,18 +24,16 @@
     "workbench.list.mouseWheelScrollSensitivity": 0.5,
     //编辑器设置
     "editor.fontSize": 14,
-    "editor.fontFamily": "JetBrains Mono, SF Pro", // install
+    "editor.fontFamily": "JetBrains Mono", // install
     "editor.tabSize": 4,
     "editor.indentSize": "tabSize",
     "editor.detectIndentation": false,
     "editor.letterSpacing": 0.2,
     "editor.lineHeight": 1.7,
+    "editor.wordWrap": "on",
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "solid",
     "editor.guides.bracketPairs": "active",
-    "editor.rulers": [
-        80
-    ],
     "editor.minimap.renderCharacters": false,
     "editor.fastScrollSensitivity": 2.5,
     "editor.mouseWheelScrollSensitivity": 0.5,
@@ -45,7 +44,7 @@
     "terminal.integrated.inheritEnv": false,
     "terminal.integrated.fastScrollSensitivity": 2.5,
     "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
     // 文件关联设置
     "files.associations": {
         "*.json": "jsonc"
@@ -62,7 +61,7 @@
         "<C-x>": false
     },
     // 自动折行
-    "rewrap.autoWrap.enabled": true,
+    "rewrap.autoWrap.enabled": false,
     // C / C++
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
     "C_Cpp.default.includePath": [ // * OS
@@ -75,7 +74,7 @@
     ],
     // python
     "python.terminal.activateEnvironment": false,
-    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.11", // OS
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3", // OS
     "[python]": {
         "editor.guides.bracketPairs": false,
         "editor.defaultFormatter": "ms-python.black-formatter"
@@ -95,12 +94,10 @@
         ]
     },
     "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features",
-        "editor.rulers": []
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features",
-        "editor.rulers": []
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     // Markdown渲染样式
     "markdown-preview-github-styles.colorTheme": "system",

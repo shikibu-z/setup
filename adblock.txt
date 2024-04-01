@@ -7,6 +7,7 @@ bilibili.com##.v-popover-wrap:has(>a[href*="app.bilibili.com"])
 bilibili.com##.trending
 bilibili.com##.vip-wrap
 bilibili.com##a[href*="cm.bilibili.com"]
+bilibili.com##.extension-tips
 bilibili.com##.activity-game-list
 bilibili.com##.bili-dyn-topic
 bilibili.com##.bili-dyn-card-link-common
