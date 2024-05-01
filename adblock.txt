@@ -8,7 +8,7 @@ bilibili.com##.trending
 bilibili.com##.vip-entry-containter
 bilibili.com##.vip-wrap
 bilibili.com##a[href*="cm.bilibili.com"]
-bilibili.com##.extension-tips
+bilibili.com##.extension-tips-v2
 bilibili.com##.activity-game-list
 bilibili.com##.bili-dyn-topic
 bilibili.com##.bili-dyn-card-link-common
