@@ -5,6 +5,7 @@ bilibili.com##.adblock-tips
 bilibili.com##.v-popover-wrap.left-loc-entry
 bilibili.com##.v-popover-wrap:has(>a[href*="app.bilibili.com"])
 bilibili.com##.trending
+bilibili.com##.vip-entry-containter
 bilibili.com##.vip-wrap
 bilibili.com##a[href*="cm.bilibili.com"]
 bilibili.com##.extension-tips

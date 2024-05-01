@@ -20,8 +20,6 @@
     },
     "workbench.colorTheme": "Chinolor", // install
     "workbench.iconTheme": "material-icon-theme", // install
-    "workbench.list.fastScrollSensitivity": 2.5,
-    "workbench.list.mouseWheelScrollSensitivity": 0.5,
     //编辑器设置
     "editor.fontSize": 14,
     "editor.fontFamily": "JetBrains Mono", // install
@@ -35,15 +33,12 @@
     "editor.cursorBlinking": "solid",
     "editor.guides.bracketPairs": "active",
     "editor.minimap.renderCharacters": false,
-    "editor.fastScrollSensitivity": 2.5,
-    "editor.mouseWheelScrollSensitivity": 0.5,
+    "editor.accessibilitySupport": "off",
     // 内建终端设置
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.letterSpacing": 1,
     "terminal.integrated.lineHeight": 1.15,
     "terminal.integrated.inheritEnv": false,
-    "terminal.integrated.fastScrollSensitivity": 2.5,
-    "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     // 文件关联设置
     "files.associations": {
@@ -78,6 +73,14 @@
     "[python]": {
         "editor.guides.bracketPairs": false,
         "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    // Java
+    "redhat.telemetry.enabled": false,
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "[xml]": {
+        "editor.tabSize": 2,
+        "files.trimFinalNewlines": true
     },
     // Web
     "[html]": {

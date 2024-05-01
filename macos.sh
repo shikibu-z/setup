@@ -1,5 +1,8 @@
-# dock
+# fast auto hide
 defaults write com.apple.dock autohide-delay -float 0
+defaults write com.apple.WindowManager AutoHideDelay -float 0
+
+# recent apps in dock
 defaults write com.apple.dock show-recent-count -int 5
 
 # press key repetition
