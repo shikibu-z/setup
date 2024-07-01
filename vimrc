@@ -4,6 +4,9 @@ set nocompatible
 " Put viminfo under .vim
 set viminfo+=n~/.vim/viminfo
 
+" Disable swap file
+set noswapfile
+
 " Looking
 set shortmess+=I
 set laststatus=2
@@ -16,13 +19,14 @@ set relativenumber
 set ruler
 set cursorline
 
-" Editor Syntax Highlight
+" Editor theme and highlight
 syntax on
+colorscheme slate
 
-" Use Mouse
+" Use mouse
 set mouse+=a
 
-" Tab Size and Smart Indent
+" Tab size and smart indent
 set expandtab
 set tabstop=4
 set shiftwidth=4

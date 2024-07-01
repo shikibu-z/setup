@@ -1,15 +1,19 @@
 [Adblock Plus 2.0]
 ! Title: shikibu's customized filter
-! Bilibili
 bilibili.com##.adblock-tips
 bilibili.com##.v-popover-wrap.left-loc-entry
+bilibili.com##.nav-link-item:has(>span>a[href*="bilibili.com/blackboard"])
 bilibili.com##.v-popover-wrap:has(>a[href*="app.bilibili.com"])
+bilibili.com##.nav-link-item:has(>span>a[href*="app.bilibili.com"])
 bilibili.com##.trending
 bilibili.com##.vip-entry-containter
+bilibili.com##.item:has(>span>div[class*="mini-vip"])
 bilibili.com##.vip-wrap
+bilibili.com##.carousel-slide:has(>a[href*="cm.bilibili.com"])
 bilibili.com##a[href*="cm.bilibili.com"]
-bilibili.com##.extension-tips-v2
+bilibili.com##.bili-video-card.is-rcmd:not(.enable-no-interest)>div
 bilibili.com##.activity-game-list
+bilibili.com##.section.game
 bilibili.com##.bili-dyn-topic
 bilibili.com##.bili-dyn-card-link-common
 bilibili.com##.bili-dyn-content__orig__additional
@@ -27,6 +31,11 @@ bilibili.com##.video-page-special-card-small
 bilibili.com##.video-page-operator-card-small
 bilibili.com##.ad-report
 bilibili.com##.pop-live-small-mode
-! Wikipedia
 wikipedia.org###siteNotice
 wikipedia.org###centralNotice
+wenku8.net##a[href*="609999.xyz"]
+wenku8.net##span:has(>fieldset>div>a[href*="609999.xyz"])
+piazza.com###search-companies
+piazza.com##article[aria-label="Financial Contribution"]
+piazza.com##article[aria-label*="Network"]
+github.com##.js-notice
