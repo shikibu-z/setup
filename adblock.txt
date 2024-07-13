@@ -25,7 +25,7 @@ bilibili.com##.bpx-player-skipcard.bpx-player-show
 bilibili.com##.bpx-player-ctrl-btn.bpx-player-ctrl-flac
 bilibili.com##.bpx-player-postpanel-sug.sugShow
 bilibili.com###activity_vote
-bilibili.com##.reply-notice
+bilibili.com###notice
 bilibili.com##.video-page-game-card-small
 bilibili.com##.video-page-special-card-small
 bilibili.com##.video-page-operator-card-small
