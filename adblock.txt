@@ -1,5 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: shikibu's customized filter
+piazza.com###search-companies
+piazza.com##article[aria-label="Financial Contribution"]
+piazza.com##article[aria-label*="Network"]
+github.com##.js-notice
+wikipedia.org###siteNotice
+wikipedia.org###centralNotice
 bilibili.com##.adblock-tips
 bilibili.com##.v-popover-wrap.left-loc-entry
 bilibili.com##.nav-link-item:has(>span>a[href*="bilibili.com/blackboard"])
@@ -33,11 +39,6 @@ bilibili.com##.video-page-special-card-small
 bilibili.com##.video-page-operator-card-small
 bilibili.com##.ad-report
 bilibili.com##.pop-live-small-mode
-wikipedia.org###siteNotice
-wikipedia.org###centralNotice
 wenku8.net##a[href*="609999.xyz"]
 wenku8.net##span:has(>fieldset>div>a[href*="609999.xyz"])
-piazza.com###search-companies
-piazza.com##article[aria-label="Financial Contribution"]
-piazza.com##article[aria-label*="Network"]
-github.com##.js-notice
+hentaiclub.net##.banner-top
