@@ -32,6 +32,7 @@ bilibili.com##.bpx-player-skipcard.bpx-player-show
 bilibili.com##.bpx-player-ctrl-btn.bpx-player-ctrl-flac
 bilibili.com##.bpx-player-postpanel-sug.sugShow
 bilibili.com###activity_vote
+bilibili.com##.activity-m-v1.act-now
 bilibili.com##.reply-notice
 bilibili.com###notice
 bilibili.com##.video-page-game-card-small

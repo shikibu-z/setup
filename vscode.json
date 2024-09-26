@@ -33,6 +33,7 @@
     "editor.cursorBlinking": "solid",
     "editor.guides.bracketPairs": "active",
     "editor.minimap.renderCharacters": false,
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.accessibilitySupport": "off",
     // 内建终端设置
     "terminal.integrated.fontSize": 14,
@@ -117,7 +118,8 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.autoClean.run": "onBuilt",
-    "latex-workshop.latexindent.path": "/opt/homebrew/bin/latexindent", // OS
+    "latex-workshop.formatting.latex": "latexindent",
+    "latex-workshop.formatting.latexindent.path": "/opt/homebrew/bin/latexindent", // OS
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.tools": [
         {
