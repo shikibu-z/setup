@@ -35,6 +35,7 @@ bilibili.com###activity_vote
 bilibili.com##.activity-m-v1.act-now
 bilibili.com##.reply-notice
 bilibili.com###notice
+bilibili.com##.paybar_container__WApBR
 bilibili.com##.video-page-game-card-small
 bilibili.com##.video-page-special-card-small
 bilibili.com##.video-page-operator-card-small
