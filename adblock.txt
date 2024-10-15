@@ -16,7 +16,6 @@ bilibili.com##.vip-entry-containter
 bilibili.com##.item:has(>span>div[class*="mini-vip"])
 bilibili.com##.vip-wrap
 bilibili.com##.extension-tips-v2
-bilibili.com##.carousel-footer-text
 bilibili.com##a[href*="cm.bilibili.com"]
 bilibili.com##.bili-video-card.is-rcmd:not(.enable-no-interest)>div
 bilibili.com##.activity-game-list
