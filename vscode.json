@@ -1,54 +1,49 @@
 {
-    // 隐私，更新，联机测试设置
+    // security and privacy
+    "workbench.enableExperiments": false,
     "security.workspace.trust.enabled": false,
     "update.mode": "none",
     "telemetry.telemetryLevel": "off",
-    "workbench.enableExperiments": false,
-    // 文件，面板，主题，图标设置
-    "window.commandCenter": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "files.autoGuessEncoding": true,
-    "git.ignoreMissingGitWarning": true,
-    "git.openRepositoryInParentFolders": "never",
-    "workbench.tips.enabled": false,
-    "workbench.startupEditor": "none",
-    "workbench.layoutControl.enabled": false,
-    "workbench.editor.empty.hint": "hidden",
-    "workbench.editorAssociations": {
-        "*.pdf": "latex-workshop-pdf-hook"
-    },
+    // style and layout
     "workbench.colorTheme": "Chinolor", // install
     "workbench.iconTheme": "material-icon-theme", // install
-    //编辑器设置
-    "editor.fontSize": 14,
-    "editor.fontFamily": "JetBrains Mono", // install
-    "editor.tabSize": 4,
-    "editor.indentSize": "tabSize",
-    "editor.detectIndentation": false,
-    "editor.letterSpacing": 0.2,
-    "editor.lineHeight": 1.7,
-    "editor.wordWrap": "on",
-    "editor.lineNumbers": "relative",
-    "editor.cursorBlinking": "solid",
-    "editor.guides.bracketPairs": "active",
-    "editor.minimap.renderCharacters": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.accessibilitySupport": "off",
-    // 内建终端设置
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.letterSpacing": 1,
-    "terminal.integrated.lineHeight": 1.15,
-    "terminal.integrated.inheritEnv": false,
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    // 文件关联设置
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.tips.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden",
+    // file control
+    "files.autoGuessEncoding": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.ignoreMissingGitWarning": true,
+    "git.openRepositoryInParentFolders": "never",
     "files.associations": {
         "*.json": "jsonc"
     },
-    // 扩展设置
+    "workbench.editorAssociations": {
+        "*.pdf": "latex-workshop-pdf-hook"
+    },
+    // font and format
+    "editor.fontFamily": "Menlo", // install
+    "editor.fontSize": 14,
+    "editor.lineNumbers": "relative",
+    "editor.cursorBlinking": "solid",
+    "editor.guides.bracketPairs": "active",
+    "editor.tabSize": 4,
+    "editor.indentSize": "tabSize",
+    "editor.detectIndentation": false,
+    "editor.wordWrap": "on",
+    "editor.minimap.renderCharacters": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    // extension
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
-    // vim
+    // extension: vim
     "vim.useSystemClipboard": true,
     "vim.handleKeys": {
         "<C-w>": false,
@@ -56,26 +51,26 @@
         "<C-k>": false,
         "<C-x>": false
     },
-    // 自动折行
+    // extension: rewrap
     "rewrap.autoWrap.enabled": false,
-    // C / C++
+    // extension: c/c++
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: WebKit, ColumnLimit: 80 }",
-    "C_Cpp.default.includePath": [ // * OS
-        // System
+    "C_Cpp.default.includePath": [ // * os
+        // system include
         "/Library/Developer/CommandLineTools/usr/include/**",
         "/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/**",
         "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/**",
-        // Homebrew
+        // user include
         "/opt/homebrew/include/**"
     ],
-    // python
+    // extension: python
     "python.terminal.activateEnvironment": false,
-    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3", // OS
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3", // * os
     "[python]": {
         "editor.guides.bracketPairs": false,
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
-    // Java
+    // extension: java
     "redhat.telemetry.enabled": false,
     "java.compile.nullAnalysis.mode": "automatic",
     "java.configuration.updateBuildConfiguration": "automatic",
@@ -83,12 +78,12 @@
         "editor.tabSize": 2,
         "files.trimFinalNewlines": true
     },
-    // Web
+    // extension: web
+    "html.completion.attributeDefaultValue": "doublequotes",
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features",
         "editor.tabSize": 2
     },
-    "html.completion.attributeDefaultValue": "doublequotes",
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.tabSize": 2,
@@ -103,9 +98,15 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    // Markdown渲染样式
+    // extension: markdown
     "markdown-preview-github-styles.colorTheme": "system",
-    // LaTeX环境
+    // extension: latex
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.formatting.latex": "latexindent",
+    "latex-workshop.formatting.latexindent.path": "/opt/homebrew/bin/latexindent", // * os
+    "latex-workshop.latex.recipe.default": "lastUsed",
     "[tex]": {
         "editor.tabSize": 2
     },
@@ -115,12 +116,7 @@
     "[bibtex]": {
         "editor.tabSize": 2
     },
-    "latex-workshop.view.pdf.viewer": "tab",
-    "latex-workshop.latex.autoBuild.run": "never",
-    "latex-workshop.latex.autoClean.run": "onBuilt",
-    "latex-workshop.formatting.latex": "latexindent",
-    "latex-workshop.formatting.latexindent.path": "/opt/homebrew/bin/latexindent", // OS
-    "latex-workshop.latex.recipe.default": "lastUsed",
+    // latex compiler and recipe
     "latex-workshop.latex.tools": [
         {
             "name": "pdfLaTeX",
@@ -175,6 +171,7 @@
             ]
         }
     ],
+    // latex cleanup
     "latex-workshop.latex.clean.method": "glob",
     "latex-workshop.latex.clean.fileTypes": [
         "*.acn",
@@ -200,7 +197,7 @@
         "*.toc",
         "*.xml"
     ],
-    // 拼写检查
+    // extension: spell check
     "cSpell.words": [
         "junyong",
         "zhao"
