@@ -54,7 +54,7 @@
     // extension: rewrap
     "rewrap.autoWrap.enabled": false,
     // extension: c/c++
-    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: WebKit, AlignConsecutiveMacros: true, AlignConsecutiveDeclarations: true, AlignConsecutiveAssignments: true, AlignTrailingComments: true}",
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: WebKit, ColumnLimit: 100, AlignConsecutiveMacros: true, AlignTrailingComments: true}",
     "C_Cpp.default.includePath": [ // * os
         // system include
         "/Library/Developer/CommandLineTools/usr/include/**",
