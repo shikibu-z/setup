@@ -70,6 +70,8 @@
         "editor.guides.bracketPairs": false,
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
+    // extension: go
+    "go.toolsManagement.checkForUpdates": "off",
     // extension: java
     "redhat.telemetry.enabled": false,
     "java.compile.nullAnalysis.mode": "automatic",

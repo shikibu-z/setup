@@ -1,3 +1,6 @@
+# disable network DS_Store
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
 # fast auto hide
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.WindowManager AutoHideDelay -float 0

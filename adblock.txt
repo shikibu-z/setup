@@ -41,6 +41,7 @@ bilibili.com##.activity-m-v1.act-now
 bilibili.com##.activity-m-v1.act-end
 bilibili.com##.reply-notice
 bilibili.com###notice
+bilibili.com###contents:has(>a[href*="gaoneng.bilibili.com])
 bilibili.com##.send-msg
 bilibili.com##.up-info__btn-panel
 bilibili.com##.paybar_container__WApBR
