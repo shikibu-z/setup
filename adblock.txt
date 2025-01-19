@@ -18,6 +18,7 @@ bilibili.com##.vip-wrap
 bilibili.com##.extension-tips-v2
 bilibili.com##.carousel-footer-title:has(>a:not([href^="https://www.bilibili.com"]))
 bilibili.com##a[href*="cm.bilibili.com"]
+bilibili.com##a[href*="gaoneng.bilibili.com"]
 bilibili.com##a[href*="b23.tv"]
 bilibili.com##a[data-raw-url*="b23.tv"]
 bilibili.com##.bili-video-card.is-rcmd:not(.enable-no-interest)>div
@@ -41,7 +42,6 @@ bilibili.com##.activity-m-v1.act-now
 bilibili.com##.activity-m-v1.act-end
 bilibili.com##.reply-notice
 bilibili.com###notice
-bilibili.com###contents:has(>a[href*="gaoneng.bilibili.com])
 bilibili.com##.send-msg
 bilibili.com##.up-info__btn-panel
 bilibili.com##.paybar_container__WApBR
