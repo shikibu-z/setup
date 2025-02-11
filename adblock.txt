@@ -46,6 +46,7 @@ bilibili.com###notice
 bilibili.com##.send-msg
 bilibili.com##.up-info__btn-panel
 bilibili.com##.paybar_container__WApBR
+bilibili.com##.video-card-ad-small
 bilibili.com##.video-page-game-card-small
 bilibili.com##.video-page-special-card-small
 bilibili.com##.video-page-operator-card-small
