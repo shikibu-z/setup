@@ -32,6 +32,7 @@ bilibili.com##.bili-dyn-banner
 bilibili.com##.bili-dyn-topic-box
 bilibili.com##.bili-upslogan
 bilibili.com##.bili-cmtime
+bilibili.com##.bili-danmaku-x-guide
 bilibili.com##.bpx-player-skipcard.bpx-player-show
 bilibili.com##.bpx-player-ctrl-btn.bpx-player-ctrl-flac
 bilibili.com##.bpx-player-postpanel-sug.sugShow
@@ -46,6 +47,7 @@ bilibili.com###notice
 bilibili.com##.send-msg
 bilibili.com##.up-info__btn-panel
 bilibili.com##.paybar_container__WApBR
+bilibili.com##.elec-section
 bilibili.com##.video-card-ad-small
 bilibili.com##.video-page-game-card-small
 bilibili.com##.video-page-special-card-small
