@@ -23,6 +23,7 @@ bilibili.com##a[href*="gaoneng.bilibili.com"]
 bilibili.com##a[href*="b23.tv"]
 bilibili.com##a[data-raw-url*="b23.tv"]
 bilibili.com##.bili-video-card.is-rcmd:not(.enable-no-interest)>div
+bilibili.com##.fixed-card
 bilibili.com##.activity-game-list
 bilibili.com##.section.game
 bilibili.com##.bili-dyn-topic
@@ -55,6 +56,7 @@ bilibili.com##.video-page-operator-card-small
 bilibili.com##.ad-report
 bilibili.com##.pop-live-small-mode
 youtube.com###donation-shelf
-wenku8.net##a[href*="609999.xyz"]
-wenku8.net##span:has(>fieldset>div>a[href*="609999.xyz"])
+wenku8.net##a[href*="444495.xyz"]
+wenku8.net##span:has(>fieldset>div>a[href*="444495.xyz"])
 hentaiclub.net##.banner-top
+supjav.com##div[class*="root"]

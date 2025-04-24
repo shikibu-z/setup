@@ -6,7 +6,7 @@
     "telemetry.telemetryLevel": "off",
     // style and layout
     "workbench.colorTheme": "Chinolor", // install
-    "workbench.iconTheme": "material-icon-theme", // install
+    // "workbench.iconTheme": "material-icon-theme", // install
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
     "workbench.tips.enabled": false,
