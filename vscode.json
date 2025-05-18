@@ -25,7 +25,7 @@
         "*.pdf": "latex-workshop-pdf-hook"
     },
     // font and format
-    "editor.fontFamily": "Menlo", // install
+    "editor.fontFamily": "Hack Nerd Font", // install
     "editor.fontSize": 14,
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "solid",
