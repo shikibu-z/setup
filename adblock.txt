@@ -8,16 +8,14 @@ overleaf.com##.user-notifications
 wikipedia.org###siteNotice
 wikipedia.org###centralNotice
 bilibili.com##.adblock-tips
-bilibili.com##.v-popover-wrap.left-loc-entry
-bilibili.com##.nav-link-item:has(>span>a[href*="bilibili.com/blackboard"])
+bilibili.com##.v-popover-wrap:has(>a[href*="bilibili.com/match"])
 bilibili.com##.v-popover-wrap:has(>a[href*="app.bilibili.com"])
-bilibili.com##.nav-link-item:has(>span>a[href*="app.bilibili.com"])
+bilibili.com##.v-popover-wrap.left-loc-entry
 bilibili.com##.trending
 bilibili.com##.vip-entry-containter
 bilibili.com##.item:has(>span>div[class*="mini-vip"])
 bilibili.com##.vip-wrap
 bilibili.com##.extension-tips-v2
-bilibili.com##.carousel-footer-title:has(>a:not([href^="https://www.bilibili.com"]))
 bilibili.com##a[href*="cm.bilibili.com"]
 bilibili.com##a[href*="gaoneng.bilibili.com"]
 bilibili.com##a[href*="b23.tv"]
@@ -26,6 +24,8 @@ bilibili.com##.bili-video-card.is-rcmd:not(.enable-no-interest)>div
 bilibili.com##.fixed-card
 bilibili.com##.activity-game-list
 bilibili.com##.section.game
+bilibili.com##aside[class="left"]
+bilibili.com##aside[class="right"]
 bilibili.com##.bili-dyn-topic
 bilibili.com##.bili-dyn-card-link-common
 bilibili.com##.bili-dyn-content__orig__additional
@@ -34,6 +34,7 @@ bilibili.com##.bili-dyn-topic-box
 bilibili.com##.bili-upslogan
 bilibili.com##.bili-cmtime
 bilibili.com##.bili-danmaku-x-guide
+bilibili.com##.bpx-player-cmd-dm-wrap
 bilibili.com##.bpx-player-skipcard.bpx-player-show
 bilibili.com##.bpx-player-ctrl-btn.bpx-player-ctrl-flac
 bilibili.com##.bpx-player-postpanel-sug.sugShow
@@ -56,6 +57,7 @@ bilibili.com##.video-page-operator-card-small
 bilibili.com##.ad-report
 bilibili.com##.pop-live-small-mode
 youtube.com###donation-shelf
+zhihu.com##.Modal-wrapper
 wenku8.net##a[href*="444495.xyz"]
 wenku8.net##span:has(>fieldset>div>a[href*="444495.xyz"])
 hentaiclub.net##.banner-top
