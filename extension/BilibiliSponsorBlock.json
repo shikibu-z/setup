@@ -1,0 +1,242 @@
+{
+    "actuallySubmitKeybind": null,
+    "allowScrollingToEdit": false,
+    "autoHideInfoButton": false,
+    "categoryPillUpdate": true,
+    "categorySelections": [
+        {
+            "name": "sponsor",
+            "option": 2
+        },
+        {
+            "name": "selfpromo",
+            "option": 2
+        },
+        {
+            "name": "interaction",
+            "option": 2
+        },
+        {
+            "name": "exclusive_access",
+            "option": 0
+        }
+    ],
+    "checkTimeDanmakuSkip": false,
+    "cleanPopup": true,
+    "closeSkipNoticeKeybind": null,
+    "commentSponsorReplyBlock": true,
+    "danmakuOffsetMatchingRegexPattern": "",
+    "darkMode": false,
+    "donateClicked": 2,
+    "dontShowNotice": true,
+    "dynamicAndCommentSponsorBlocker": true,
+    "dynamicAndCommentSponsorRegexPattern": "(618|11(?!1).11|双(11|十一|12|十二))|(恰|接)(?:个|了|到)?(饭|广)|((?:领(?:取|张)?|抢|有)(?:神|优惠)?(券|卷)|券后|卷后)|(淘宝|京东|拼多多)搜索|(点(?:击)|戳|来|我)评论区(?:置顶)|(立即|蓝链)(?:购买|下单)|满\\d+|(大促|促销)|折扣|特价|秒杀|广告|低至|热卖|抢购|新品|豪礼|赠品|同款|优惠|中奖|流量卡|讯飞|质保",
+    "dynamicSpaceSponsorBlocker": false,
+    "dynamicSponsorBlockerDebug": false,
+    "dynamicSponsorSelections": [
+        {
+            "name": "dynamicSponsor_sponsor",
+            "option": 2
+        },
+        {
+            "name": "dynamicSponsor_forward_sponsor",
+            "option": 2
+        },
+        {
+            "name": "dynamicSponsor_suspicion_sponsor",
+            "option": 2
+        }
+    ],
+    "fullVideoLabelsOnThumbnails": false,
+    "fullVideoLabelsOnThumbnailsMode": 1,
+    "fullVideoSegments": true,
+    "hideDeleteButtonPlayerControls": true,
+    "hideInfoButtonPlayerControls": true,
+    "hideSkipButtonPlayerControls": true,
+    "hideUploadButtonPlayerControls": false,
+    "hideVideoPlayerControls": false,
+    "isVip": false,
+    "manualSkipOnFullVideo": true,
+    "minutesSaved": 502.28668250000004,
+    "muteSegments": false,
+    "nextFrameKeybind": null,
+    "noticeVisibilityMode": 2,
+    "null": true,
+    "permissions": {
+        "exclusive_access": true,
+        "filler": true,
+        "interaction": true,
+        "intro": true,
+        "music_offtopic": true,
+        "outro": true,
+        "poi_highlight": true,
+        "preview": true,
+        "selfpromo": true,
+        "sponsor": true
+    },
+    "previewKeybind": null,
+    "previousFrameKeybind": null,
+    "refetchWhenNotFound": false,
+    "scrollToEditTimeUpdate": true,
+    "showCategoryGuidelines": false,
+    "showDonationLink": false,
+    "showNewIcon": true,
+    "showPortVideoButton": false,
+    "showPreviewYoutubeButton": false,
+    "showShortcutPopover": false,
+    "showTimeWithSkips": false,
+    "skipCount": 530,
+    "skipKeybind": null,
+    "skipNoticeDuration": "0",
+    "skipToHighlightKeybind": null,
+    "sponsorTimesContributed": 100,
+    "startSponsorKeybind": null,
+    "submissionCountSinceCategories": 100,
+    "submitKeybind": null,
+    "trackDownvotes": false,
+    "trackViewCount": false,
+    "defaultCategory": "chooseACategory",
+    "renderSegmentsAsChapters": false,
+    "whitelistedChannels": [],
+    "forceChannelCheck": false,
+    "disableSkipping": false,
+    "enableDanmakuSkip": false,
+    "enableAutoSkipDanmakuSkip": false,
+    "enableMenuDanmakuSkip": false,
+    "trackViewCountInPrivate": true,
+    "trackDownvotesInPrivate": false,
+    "hideDiscordLaunches": 0,
+    "hideDiscordLink": false,
+    "invidiousInstances": [
+        "invidious.snopyta.org"
+    ],
+    "serverAddress": "https://www.bsbsb.top",
+    "minDuration": 0,
+    "skipNoticeDurationBefore": 3,
+    "advanceSkipNotice": false,
+    "audioNotificationOnSkip": false,
+    "checkForUnlistedVideos": false,
+    "testingServer": false,
+    "ytInfoPermissionGranted": false,
+    "allowExpirements": true,
+    "showPopupDonationCount": 0,
+    "showNewFeaturePopups": true,
+    "autoSkipOnMusicVideos": false,
+    "showChapterInfoMessage": true,
+    "showCategoryWithoutPermission": false,
+    "showSegmentNameInChapterBar": true,
+    "useVirtualTime": true,
+    "showSegmentFailedToFetchWarning": true,
+    "dynamicAndCommentSponsorWhitelistedChannels": false,
+    "dynamicSponsorBlock": true,
+    "commentSponsorBlock": true,
+    "categoryPillColors": {},
+    "payments": {
+        "licenseKey": null,
+        "lastCheck": 0,
+        "lastFreeCheck": 0,
+        "freeAccess": false,
+        "chaptersAllowed": false
+    },
+    "colorPalette": {
+        "red": "#780303",
+        "white": "#ffffff",
+        "locked": "#ffc83d"
+    },
+    "barTypes": {
+        "preview-chooseACategory": {
+            "color": "#ffffff",
+            "opacity": "0.7"
+        },
+        "sponsor": {
+            "color": "#00d400",
+            "opacity": "0.7"
+        },
+        "preview-sponsor": {
+            "color": "#007800",
+            "opacity": "0.7"
+        },
+        "selfpromo": {
+            "color": "#ffff00",
+            "opacity": "0.7"
+        },
+        "preview-selfpromo": {
+            "color": "#bfbf35",
+            "opacity": "0.7"
+        },
+        "exclusive_access": {
+            "color": "#008a5c",
+            "opacity": "0.7"
+        },
+        "interaction": {
+            "color": "#cc00ff",
+            "opacity": "0.7"
+        },
+        "preview-interaction": {
+            "color": "#6c0087",
+            "opacity": "0.7"
+        },
+        "intro": {
+            "color": "#00ffff",
+            "opacity": "0.7"
+        },
+        "preview-intro": {
+            "color": "#008080",
+            "opacity": "0.7"
+        },
+        "outro": {
+            "color": "#0202ed",
+            "opacity": "0.7"
+        },
+        "preview-outro": {
+            "color": "#000070",
+            "opacity": "0.7"
+        },
+        "preview": {
+            "color": "#008fd6",
+            "opacity": "0.7"
+        },
+        "preview-preview": {
+            "color": "#005799",
+            "opacity": "0.7"
+        },
+        "music_offtopic": {
+            "color": "#ff9900",
+            "opacity": "0.7"
+        },
+        "preview-music_offtopic": {
+            "color": "#a6634a",
+            "opacity": "0.7"
+        },
+        "poi_highlight": {
+            "color": "#ff1684",
+            "opacity": "0.7"
+        },
+        "preview-poi_highlight": {
+            "color": "#9b044c",
+            "opacity": "0.7"
+        },
+        "filler": {
+            "color": "#7300FF",
+            "opacity": "0.9"
+        },
+        "preview-filler": {
+            "color": "#2E0066",
+            "opacity": "0.7"
+        }
+    },
+    "dynamicSponsorTypes": {
+        "dynamicSponsor_sponsor": {
+            "color": "#007800",
+            "opacity": "0.7"
+        },
+        "dynamicSponsor_forward_sponsor": {
+            "color": "#bfbf35",
+            "opacity": "0.7"
+        },
+        "dynamicSponsor_suspicion_sponsor": {
+            "color": "#a6634a",
+            "opacity": "0.7"
+        }
+    }
+}

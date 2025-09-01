@@ -6,7 +6,7 @@
     "telemetry.telemetryLevel": "off",
     // style and layout
     "workbench.colorTheme": "Chinolor", // install
-    // "workbench.iconTheme": "material-icon-theme", // install
+    "workbench.iconTheme": "material-icon-theme", // install
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
     "workbench.tips.enabled": false,
@@ -25,7 +25,7 @@
         "*.pdf": "latex-workshop-pdf-hook"
     },
     // font and format
-    "editor.fontFamily": "Hack Nerd Font", // install
+    "editor.fontFamily": "Menlo", // install
     "editor.fontSize": 14,
     "editor.lineNumbers": "relative",
     "editor.cursorBlinking": "solid",
@@ -34,7 +34,7 @@
     "editor.indentSize": "tabSize",
     "editor.detectIndentation": false,
     "editor.wordWrap": "on",
-    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.accessibilitySupport": "off",
     "terminal.integrated.fontSize": 14,
@@ -43,6 +43,9 @@
     "extensions.autoCheckUpdates": false,
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
+    // extension: github copilot
+    "chat.commandCenter.enabled": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
     // extension: vim
     "vim.useSystemClipboard": true,
     "vim.handleKeys": {
@@ -51,8 +54,6 @@
         "<C-k>": false,
         "<C-x>": false
     },
-    // extension: rewrap
-    "rewrap.autoWrap.enabled": false,
     // extension: c/c++
     "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: WebKit, ColumnLimit: 100, AlignConsecutiveMacros: true, AlignTrailingComments: true}",
     "C_Cpp.default.includePath": [ // *os
@@ -64,17 +65,33 @@
         "/opt/homebrew/include/**"
     ],
     // extension: python
-    "python.terminal.activateEnvironment": false,
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3", // *os
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "standard",
     "[python]": {
-        "editor.guides.bracketPairs": false,
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
     },
+    "ruff.lineLength": 100,
+    "python.terminal.activateEnvironment": false,
     // extension: go
     "go.toolsManagement.checkForUpdates": "off",
     "go.toolsManagement.autoUpdate": false,
     // extension: java
     "redhat.telemetry.enabled": false,
+    "java.configuration.detectJdksAtStart": false,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-24",
+            "path": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
+            "default": true
+        }
+    ],
+    "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home",
+    "java.configuration.maven.userSettings": "~/.config/maven/settings.xml",
     "java.compile.nullAnalysis.mode": "automatic",
     "java.configuration.updateBuildConfiguration": "automatic",
     "[xml]": {
@@ -89,11 +106,11 @@
     },
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features",
-        "editor.tabSize": 2,
+        "editor.tabSize": 2
         // eslint airbnb max length
-        "editor.rulers": [
-            100
-        ]
+        // "editor.rulers": [
+        //     100
+        // ]
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -199,15 +216,5 @@
         "*.synctex.gz",
         "*.toc",
         "*.xml"
-    ],
-    // extension: spell check
-    "cSpell.words": [
-        "junyong",
-        "zhao"
-    ],
-    "cSpell.enabledLanguageIds": [
-        "latex",
-        "markdown",
-        "plaintext"
     ]
 }
