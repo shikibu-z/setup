@@ -1,8 +1,9 @@
 {
+    "exclusionRules": [],
     "keyMappings": "",
+    "newTabDestination": "browserNewTabPage",
     "scrollStepSize": 150,
-    "smoothScroll": false,
     "searchEngines": "",
-    "settingsVersion": "2.3",
-    "exclusionRules": []
+    "settingsVersion": "2.4.2",
+    "smoothScroll": false
 }

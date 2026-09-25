@@ -13,10 +13,6 @@
             "option": 2
         },
         {
-            "name": "interaction",
-            "option": 2
-        },
-        {
             "name": "exclusive_access",
             "option": 0
         }
@@ -30,7 +26,7 @@
     "donateClicked": 2,
     "dontShowNotice": true,
     "dynamicAndCommentSponsorBlocker": true,
-    "dynamicAndCommentSponsorRegexPattern": "(618|11(?!1).11|双(11|十一|12|十二))|(恰|接)(?:个|了|到)?(饭|广)|((?:领(?:取|张)?|抢|有)(?:神|优惠)?(券|卷)|券后|卷后)|(淘宝|京东|拼多多)搜索|(点(?:击)|戳|来|我)评论区(?:置顶)|(立即|蓝链)(?:购买|下单)|满\\d+|(大促|促销)|折扣|特价|秒杀|广告|低至|热卖|抢购|新品|豪礼|赠品|同款|优惠|中奖|流量卡|讯飞|质保",
+    "dynamicAndCommentSponsorRegexPattern": "/618|11(?!1).11(?:日)?|双(?:11|十一|12|十二)|女神节|开学季|年货节|恰(?:个|了|到)?饭|金主|(他|它|她)(?:们)?家(?:的)?|(?:评论区)?(?:领(?:取|张|到)?|抢|送|得|叠)(?:我的)?(?:神|优惠|红包|折扣|福利|无门槛|隐藏|秘密|专属|(?:超)?大(?:额)?|额外)+(?:券|卷|劵|q(?:uan)?)?(?:后|到手|价|使用|下单)?|(?:领|抢|得|送)(?:红包|优惠|券|福利)|(?:优惠|(?:券|卷|劵)后|到手|促销|活动|神)价|(?:淘宝|tb|京东|jd|狗东|拼多多|pdd|天猫|tmall)搜索|(?:随(便|时)|任意)(?:退|退货|换货)|(?:免费|无偿)(?:换(?:个)?新|替换|更换|试用)(?:商品|物品)?|(?:点(?:击)?|戳|来|我)评论区(?:置顶)?|(?:立即|蓝链|链接|🔗)(?:购买|下单)|(?:vx|wx|微信|软件)扫码(?:领)?(?:优惠|红包|券)?|(?:我的)?同款(?:[的]?(?:推荐|好物|商品|入手|购买|拥有|分享|安利)?)|满\\d+|大促|促销|折扣|特价|秒杀|广告|推广|低至|热卖|抢购|新品|豪礼|赠品|密令|(?:饿了么|美(?:团|団)|百度外卖|蜂鸟|达达|UU跑腿|(?:淘宝)?闪购)|(?:点|订|送|吃)(?:外卖|餐)|外卖(?:节|服务|平台|app)/gi",
     "dynamicSpaceSponsorBlocker": false,
     "dynamicSponsorBlockerDebug": false,
     "dynamicSponsorSelections": [
@@ -47,17 +43,18 @@
             "option": 2
         }
     ],
+    "enableCache": true,
     "fullVideoLabelsOnThumbnails": false,
     "fullVideoLabelsOnThumbnailsMode": 1,
-    "fullVideoSegments": true,
+    "fullVideoSegments": false,
     "hideDeleteButtonPlayerControls": true,
     "hideInfoButtonPlayerControls": true,
     "hideSkipButtonPlayerControls": true,
     "hideUploadButtonPlayerControls": false,
     "hideVideoPlayerControls": false,
     "isVip": false,
-    "manualSkipOnFullVideo": true,
-    "minutesSaved": 502.28668250000004,
+    "manualSkipOnFullVideo": false,
+    "minutesSaved": 603.1508158333339,
     "muteSegments": false,
     "nextFrameKeybind": null,
     "noticeVisibilityMode": 2,
@@ -78,6 +75,7 @@
     "previousFrameKeybind": null,
     "refetchWhenNotFound": false,
     "scrollToEditTimeUpdate": true,
+    "serverAddress": "https://www.bsbsb.top",
     "showCategoryGuidelines": false,
     "showDonationLink": false,
     "showNewIcon": true,
@@ -85,19 +83,20 @@
     "showPreviewYoutubeButton": false,
     "showShortcutPopover": false,
     "showTimeWithSkips": false,
-    "skipCount": 530,
+    "skipCount": 665,
     "skipKeybind": null,
     "skipNoticeDuration": "0",
+    "skipOnSeekToSegment": true,
     "skipToHighlightKeybind": null,
-    "sponsorTimesContributed": 100,
+    "sponsorTimesContributed": 163,
     "startSponsorKeybind": null,
-    "submissionCountSinceCategories": 100,
+    "submissionCountSinceCategories": 171,
     "submitKeybind": null,
     "trackDownvotes": false,
     "trackViewCount": false,
+    "whitelistedChannels": [],
     "defaultCategory": "chooseACategory",
     "renderSegmentsAsChapters": false,
-    "whitelistedChannels": [],
     "forceChannelCheck": false,
     "disableSkipping": false,
     "enableDanmakuSkip": false,
@@ -110,7 +109,10 @@
     "invidiousInstances": [
         "invidious.snopyta.org"
     ],
-    "serverAddress": "https://www.bsbsb.top",
+    "mirrorServerAddresses": [
+        "https://www.bsbsb.xyz",
+        "http://103.236.70.57:9876"
+    ],
     "minDuration": 0,
     "skipNoticeDurationBefore": 3,
     "advanceSkipNotice": false,
@@ -118,7 +120,7 @@
     "checkForUnlistedVideos": false,
     "testingServer": false,
     "ytInfoPermissionGranted": false,
-    "allowExpirements": true,
+    "allowExperiments": true,
     "showPopupDonationCount": 0,
     "showNewFeaturePopups": true,
     "autoSkipOnMusicVideos": false,
@@ -127,17 +129,12 @@
     "showSegmentNameInChapterBar": true,
     "useVirtualTime": true,
     "showSegmentFailedToFetchWarning": true,
+    "lifecycleDebug": false,
     "dynamicAndCommentSponsorWhitelistedChannels": false,
+    "dynamicAndCommentSponsorRegexPatternKeywordNumber": 1,
     "dynamicSponsorBlock": true,
     "commentSponsorBlock": true,
     "categoryPillColors": {},
-    "payments": {
-        "licenseKey": null,
-        "lastCheck": 0,
-        "lastFreeCheck": 0,
-        "freeAccess": false,
-        "chaptersAllowed": false
-    },
     "colorPalette": {
         "red": "#780303",
         "white": "#ffffff",
@@ -222,6 +219,14 @@
         },
         "preview-filler": {
             "color": "#2E0066",
+            "opacity": "0.7"
+        },
+        "padding": {
+            "color": "#222222",
+            "opacity": "0.7"
+        },
+        "preview-padding": {
+            "color": "#111111",
             "opacity": "0.7"
         }
     },

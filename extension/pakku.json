@@ -1,6 +1,6 @@
 {
-    "_LAST_UPDATE_TIME": 11751839482002,
-    "_CONFIG_VER": 4,
+    "_LAST_UPDATE_TIME": 11777491991999,
+    "_CONFIG_VER": 5,
     "ADVANCED_USER": true,
     "THRESHOLD": 10,
     "MAX_DIST": 5,
@@ -10,6 +10,8 @@
     "TRIM_SPACE": true,
     "TRIM_WIDTH": true,
     "FORCELIST": [],
+    "FORCELIST_CONTINUE_ON_MATCH": false,
+    "FORCELIST_APPLY_SINGULAR": false,
     "WHITELIST": [],
     "CROSS_MODE": true,
     "PROC_TYPE7": true,
@@ -28,11 +30,11 @@
     "AUTO_DISABLE_DANMU": false,
     "AUTO_DANMU_LIST": false,
     "FLUCTLIGHT": false,
-    "BREAK_UPDATE": true,
+    "BREAK_UPDATE": false,
     "TAKEOVER_AIJUDGE": true,
     "SCROLL_THRESHOLD": 0,
     "USERSCRIPT": "// filter danmaku by weight 5\ntweak_after_pakku(c => {\n c.objs = c.objs.filter(d => d.weight >= 5);\n});\n\n// remove attention and ads\ntweak_proto_view(view => {\n view.commandDms = view.commandDms.filter(d => d.command !== '#ATTENTION#');\n view.activityMetas = [];\n});\n\n// remove vote\ntweak_proto_view(view => {\n view.commandDms = view.commandDms.filter(d => d.command !== '#VOTE#');\n});\ntweak_before_pakku(chunk => {\n chunk.objs = chunk.objs.filter(\n dm => dm.extra.proto_dmfrom !== 2\n );\n});\n",
     "POPUP_BADGE": "off",
     "COMBINE_THREADS": 3,
-    "READ_PLAYER_BLACKLIST": true
+    "READ_PLAYER_BLACKLIST": false
 }

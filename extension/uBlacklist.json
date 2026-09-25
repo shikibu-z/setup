@@ -1,0 +1,76 @@
+{
+    "blacklist": "*://wuu.wikipedia.org/*\n*://zh-yue.wikipedia.org/*\n*://zh-classical.wikipedia.org/*\n",
+    "blockColor": "default",
+    "blockWholeSite": true,
+    "dialogTheme": "default",
+    "enableMatchingRules": false,
+    "hideBlockLinks": true,
+    "hideControl": true,
+    "highlightColors": [],
+    "linkColor": "default",
+    "serpInfoSettings": {
+        "user": {
+            "content": ""
+        },
+        "remote": [
+            {
+                "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/google.yml",
+                "custom": false,
+                "enabled": true
+            },
+            {
+                "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/bing.yml",
+                "custom": false,
+                "enabled": false
+            },
+            {
+                "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/brave.yml",
+                "custom": false,
+                "enabled": false
+            },
+            {
+                "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/duckduckgo.yml",
+                "custom": false,
+                "enabled": false
+            },
+            {
+                "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/ecosia.yml",
+                "custom": false,
+                "enabled": false
+            },
+            {
+                "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/kagi.yml",
+                "custom": false,
+                "enabled": false
+            },
+            {
+                "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/searxng.yml",
+                "custom": false,
+                "enabled": false
+            },
+            {
+                "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/startpage.yml",
+                "custom": false,
+                "enabled": false
+            },
+            {
+                "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/yahoo-japan.yml",
+                "custom": false,
+                "enabled": false
+            },
+            {
+                "url": "https://raw.githubusercontent.com/ublacklist/builtin/refs/heads/dist/serpinfo/yandex.yml",
+                "custom": false,
+                "enabled": false
+            }
+        ]
+    },
+    "skipBlockDialog": false,
+    "subscriptions": [],
+    "syncAppearance": false,
+    "syncBlocklist": false,
+    "syncGeneral": false,
+    "syncSerpInfo": false,
+    "syncSubscriptions": false,
+    "version": "10.1.1"
+}

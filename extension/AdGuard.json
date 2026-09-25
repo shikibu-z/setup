@@ -11,6 +11,7 @@
     "extension-specific-settings": {
         "use-optimized-filters": false,
         "collect-hits-count": false,
+        "allow-anonymized-usage-data": false,
         "show-context-menu": false,
         "show-info-about-adguard": false,
         "show-app-updated-info": false,
@@ -21,41 +22,55 @@
         "enabled-filters": [
             2,
             7,
+            17,
             18,
             19,
             20,
-            224
+            25,
+            224,
+            1000
         ],
         "enabled-groups": [
+            0,
             1,
+            2,
             4,
             7
         ],
-        "custom-filters": [],
+        "custom-filters": [
+            {
+                "customUrl": "https://raw.githubusercontent.com/shikibu-z/setup/refs/heads/main/adblock.txt",
+                "title": "shikibu's customized filter",
+                "trusted": true,
+                "enabled": true
+            }
+        ],
         "user-filter": {
             "enabled": true,
-            "rules": "[Adblock Plus 2.0]\n! Title: shikibu's customized filter\npiazza.com###search-companies\npiazza.com##article[aria-label=\"Financial Contribution\"]\npiazza.com##article[aria-label*=\"Network\"]\ngithub.com##.js-notice\noverleaf.com##.user-notifications\nwikipedia.org###siteNotice\nwikipedia.org###centralNotice\nbilibili.com##.adblock-tips\nbilibili.com##.v-popover-wrap:has(>a[href*=\"bilibili.com/match\"])\nbilibili.com##.v-popover-wrap:has(>a[href*=\"app.bilibili.com\"])\nbilibili.com##.v-popover-wrap.left-loc-entry\nbilibili.com##.trending\nbilibili.com##.vip-entry-containter\nbilibili.com##.item:has(>span>div[class*=\"mini-vip\"])\nbilibili.com##.vip-wrap\nbilibili.com##.extension-tips-v2\nbilibili.com##a[href*=\"cm.bilibili.com\"]\nbilibili.com##a[href*=\"gaoneng.bilibili.com\"]\nbilibili.com##a[href*=\"b23.tv\"]\nbilibili.com##a[data-raw-url*=\"b23.tv\"]\nbilibili.com##.bili-video-card.is-rcmd:not(.enable-no-interest)>div\nbilibili.com##.fixed-card\nbilibili.com##.activity-game-list\nbilibili.com##.section.game\nbilibili.com##aside[class=\"left\"]\nbilibili.com##aside[class=\"right\"]\nbilibili.com##.bili-dyn-topic\nbilibili.com##.bili-dyn-card-link-common\nbilibili.com##.bili-dyn-content__orig__additional\nbilibili.com##.bili-dyn-banner\nbilibili.com##.bili-dyn-topic-box\nbilibili.com##.bili-upslogan\nbilibili.com##.bili-cmtime\nbilibili.com##.bili-danmaku-x-guide\nbilibili.com##.bpx-player-cmd-dm-wrap\nbilibili.com##.bpx-player-skipcard.bpx-player-show\nbilibili.com##.bpx-player-ctrl-btn.bpx-player-ctrl-flac\nbilibili.com##.bpx-player-postpanel-sug.sugShow\nbilibili.com##.video-ai-assistant\nbilibili.com##.video-note\nbilibili.com###activity_vote\nbilibili.com##.tag.not-btn-tag:has(.topic-tag)\nbilibili.com##.activity-m-v1.act-now\nbilibili.com##.activity-m-v1.act-end\nbilibili.com##.reply-notice\nbilibili.com###notice\nbilibili.com##.send-msg\nbilibili.com##.up-info__btn-panel\nbilibili.com##.paybar_container__WApBR\nbilibili.com##.elec-section\nbilibili.com##.video-card-ad-small\nbilibili.com##.video-page-game-card-small\nbilibili.com##.video-page-special-card-small\nbilibili.com##.video-page-operator-card-small\nbilibili.com##.ad-report\nbilibili.com##.pop-live-small-mode\nyoutube.com###donation-shelf\nzhihu.com##.Modal-wrapper\nwenku8.net##a[href*=\"444495.xyz\"]\nwenku8.net##span:has(>fieldset>div>a[href*=\"444495.xyz\"])\nhentaiclub.net##.banner-top\nsupjav.com##div[class*=\"root\"]",
+            "rules": "",
             "disabled-rules": ""
         },
         "allowlist": {
-            "enabled": false,
+            "enabled": true,
             "inverted": false,
-            "domains": [],
+            "domains": [
+                "play.dlsite.com"
+            ],
             "inverted-domains": []
         }
     },
     "stealth": {
-        "stealth-disable-stealth-mode": true,
+        "stealth-disable-stealth-mode": false,
         "stealth-hide-referrer": true,
-        "stealth-hide-search-queries": false,
+        "stealth-hide-search-queries": true,
         "stealth-send-do-not-track": false,
         "stealth-block-webrtc": false,
-        "stealth-remove-x-client": false,
+        "stealth-remove-x-client": true,
         "stealth-block-third-party-cookies": true,
         "stealth-block-third-party-cookies-time": 2880,
         "stealth-block-first-party-cookies": false,
         "stealth-block-first-party-cookies-time": 4320,
         "block-known-trackers": false,
-        "strip-tracking-parameters": false
+        "strip-tracking-parameters": true
     }
 }

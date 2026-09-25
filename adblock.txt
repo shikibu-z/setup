@@ -1,29 +1,22 @@
 [Adblock Plus 2.0]
 ! Title: shikibu's customized filter
-piazza.com###search-companies
-piazza.com##article[aria-label="Financial Contribution"]
-piazza.com##article[aria-label*="Network"]
-github.com##.js-notice
-overleaf.com##.user-notifications
-wikipedia.org###siteNotice
-wikipedia.org###centralNotice
 bilibili.com##.adblock-tips
 bilibili.com##.v-popover-wrap:has(>a[href*="bilibili.com/match"])
 bilibili.com##.v-popover-wrap:has(>a[href*="app.bilibili.com"])
 bilibili.com##.v-popover-wrap.left-loc-entry
+bilibili.com##+js(remove-attr, placeholder, input.nav-search-input, stay)
 bilibili.com##.trending
+bilibili.com##.vip-item
 bilibili.com##.vip-entry-containter
-bilibili.com##.item:has(>span>div[class*="mini-vip"])
-bilibili.com##.vip-wrap
+bilibili.com##.vip-entry
 bilibili.com##.extension-tips-v2
 bilibili.com##a[href*="cm.bilibili.com"]
 bilibili.com##a[href*="gaoneng.bilibili.com"]
-bilibili.com##a[href*="b23.tv"]
-bilibili.com##a[data-raw-url*="b23.tv"]
 bilibili.com##.bili-video-card.is-rcmd:not(.enable-no-interest)>div
 bilibili.com##.fixed-card
 bilibili.com##.activity-game-list
 bilibili.com##.section.game
+bilibili.com##.brand-ad-list
 bilibili.com##aside[class="left"]
 bilibili.com##aside[class="right"]
 bilibili.com##.bili-dyn-topic
@@ -56,9 +49,26 @@ bilibili.com##.video-page-special-card-small
 bilibili.com##.video-page-operator-card-small
 bilibili.com##.ad-report
 bilibili.com##.pop-live-small-mode
-youtube.com###donation-shelf
-zhihu.com##.Modal-wrapper
+gemini.google.com##a[data-test-id="desktop-upgrade-tier2-button"]
+gemini.google.com##g1-dynamic-upsell-button[data-test-id="g1-dynamic-upsell-button"]
+gemini.google.com##.adv-upsell
+gemini.google.com##.g1-upsell-container
+github.com##.js-notice
+hentaiclub.net##.banner-top
+jav-fun.cc#$#[data-cl-overlay] { pointer-events: none !important; display: none !important; visibility: hidden !important; opacity: 0 !important; }
+jav-fun.cc#?#[data-cl-overlay]:remove()
+overleaf.com##.user-notifications
+piazza.com###search-companies
+piazza.com##article[aria-label="Financial Contribution"]
+piazza.com##article[aria-label*="Network"]
+supjav.com##div[class*="root"]
 wenku8.net##a[href*="444495.xyz"]
 wenku8.net##span:has(>fieldset>div>a[href*="444495.xyz"])
-hentaiclub.net##.banner-top
-supjav.com##div[class*="root"]
+wikipedia.org###siteNotice
+wikipedia.org###centralNotice
+wikipedia.org##.vector-user-links
+wikipedia.org##.vector-column-end
+youtube.com##div[client-ve-type="307188"]
+youtube.com###voice-search-button
+youtube.com###donation-shelf
+zhihu.com##.Modal-wrapper

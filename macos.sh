@@ -1,21 +1,20 @@
 # disable network DS_Store
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
-# fast auto hide
+# fast autohide
 defaults write com.apple.dock autohide-delay -float 0
-defaults write com.apple.WindowManager AutoHideDelay -float 0
 
 # recent apps in dock
-defaults write com.apple.dock show-recent-count -int 5
+defaults write com.apple.dock show-recent-count -int 15
 
 # press key repetition
-defaults write -g ApplePressAndHoldEnabled -bool false
+# defaults write -g ApplePressAndHoldEnabled -bool false
 
 # automatic termination, might not want to set this
 # defaults write -g NSDisableAutomaticTermination -bool yes
 
 # power nap during sleep
-sudo pmset -a powernap 0 ttyskeepawake 0
+# sudo pmset -a powernap 0 ttyskeepawake 0
 
 # reset/disable software gateway
 sudo spctl --reset-default && sudo spctl --global-disable
@@ -41,3 +40,8 @@ cd / && sudo find . -name ".localized" -exec sudo rm -frv {} \;
 
 # convert audio file
 for i in *.wav; do ffmpeg -i "$i" -ar 48k -ac 2 -ab 320k -f mp3 "${i}.mp3"; done;
+
+# chrome ai
+defaults write com.google.Chrome ChromeSuggestionsSettings -int 1
+defaults write com.google.Chrome SearchContentSharingSettings -int 1
+defaults write com.google.Chrome AIModeSettings -int 1

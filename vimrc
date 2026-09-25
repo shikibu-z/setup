@@ -1,8 +1,8 @@
 " Use Vim instead of Vi
 set nocompatible
 
-" Put viminfo under .vim
-set viminfo+=n~/.vim/viminfo
+" Set viminfo path
+set viminfo+=n~/.config/vim/viminfo
 
 " Disable swap file
 set noswapfile
@@ -21,7 +21,7 @@ set cursorline
 
 " Editor theme and highlight
 syntax on
-colorscheme slate
+colorscheme desert
 
 " Use mouse
 set mouse+=a
