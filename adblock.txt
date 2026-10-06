@@ -31,8 +31,10 @@ bilibili.com##.bpx-player-cmd-dm-wrap
 bilibili.com##.bpx-player-skipcard.bpx-player-show
 bilibili.com##.bpx-player-ctrl-btn.bpx-player-ctrl-flac
 bilibili.com##.bpx-player-postpanel-sug.sugShow
+bilibili.com##.bpx-player-toast-wrap
 bilibili.com##.video-ai-assistant
 bilibili.com##.video-note
+bilibili.com###vote
 bilibili.com###activity_vote
 bilibili.com##.tag.not-btn-tag:has(.topic-tag)
 bilibili.com##.activity-m-v1.act-now

@@ -21,6 +21,14 @@ sudo spctl --reset-default && sudo spctl --global-disable
 
 # rebuild spotlight index
 sudo mdutil -a -i off && sudo mdutil -a -E / && sudo mdutil -a -i on
+# controlling spotlight knowledge graph
+for service in \
+    com.apple.spotlightknowledged \
+    com.apple.spotlightknowledged.importer \
+    com.apple.spotlightknowledged.updater
+do
+    launchctl enable "gui/$(id -u)/$service"
+done
 
 # homebrew
 brew update && brew outdated --greedy
@@ -41,6 +49,18 @@ cd / && sudo find . -name ".localized" -exec sudo rm -frv {} \;
 # convert audio file
 for i in *.wav; do ffmpeg -i "$i" -ar 48k -ac 2 -ab 320k -f mp3 "${i}.mp3"; done;
 
+# chrome autoupdate
+for service in \
+    com.google.keystone.agent \
+    com.google.keystone.xpcservice \
+    com.google.keystone.user.agent \
+    com.google.keystone.user.xpcservice \
+    com.google.keystone.system.agent \
+    com.google.keystone.system.xpcservice \
+    com.google.GoogleUpdater.wake
+do
+    launchctl enable "gui/$(id -u)/$service"
+done
 # chrome ai
 defaults write com.google.Chrome ChromeSuggestionsSettings -int 1
 defaults write com.google.Chrome SearchContentSharingSettings -int 1
